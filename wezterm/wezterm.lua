@@ -14,10 +14,11 @@ end
 -- Below is some fancy tab settings
 -- For example, changing the color scheme:
 config.window_decorations = "RESIZE"
+config.window_background_opacity = 0.6
 config.color_scheme = "Tango (terminal.sexy)"
 -- config.color_scheme = "Glacier"
 config.colors = {
-	background = "#000000",
+	-- background = "transparent",
 	selection_fg = "#1c2128",
 	selection_bg = "#7ce38b",
 	cursor_bg = "#7ce38b",
