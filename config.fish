@@ -12,8 +12,8 @@ end
 # source ~/.bash_aliases
 
 # set correct editor
-set -Ux EDITOR nvim
-set -gx EDITOR nvim
+set -Ux EDITOR /usr/local/bin/nvim
+set -gx EDITOR /usr/local/bin/nvim
 
 # #34e2e2
 set pure_color_primary 34e2e2
@@ -146,6 +146,6 @@ alias ctheme 'echo "$OMB_THEME_RANDOM_SELECTED"'
 alias lg lazygit
 alias nala 'sudo nala'
 alias wopen '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command Start'
+alias nvim 'sudo nvim'
+alias lg 'sudo lazygit'
 alias q exit
-
-alias whatismyip whatsmyip
