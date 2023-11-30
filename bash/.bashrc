@@ -273,6 +273,7 @@ alias lg='lazygit'
 alias nala='sudo nala'
 alias wopen='/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command Start'
 alias q='exit'
+alias su='su -'
 
 nn() {
 	nb "${1}"
@@ -423,3 +424,4 @@ fi
 export PATH=$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 export PATH=$PATH:/mnt/c/Windows/explorer.exe
 export EDITOR="/bin/nvim"
+export PATH=$PATH:/mnt/c/WINDOWS/system32
