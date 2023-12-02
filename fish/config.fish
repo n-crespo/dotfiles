@@ -152,3 +152,4 @@ alias wopen '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Comm
 # alias nvim 'sudo nvim'
 alias lg 'sudo lazygit'
 alias q exit
+alias img 'weztemr imgcat'
