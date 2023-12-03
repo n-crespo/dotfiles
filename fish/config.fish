@@ -148,8 +148,9 @@ alias l 'ls -l --group-directories-first'
 alias ctheme 'echo "$OMB_THEME_RANDOM_SELECTED"'
 alias lg lazygit
 alias nala 'sudo nala'
-alias wopen '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command Start'
+alias wopen wsl-open
 # alias nvim 'sudo nvim'
 alias lg 'sudo lazygit'
 alias q exit
-alias img 'weztemr imgcat'
+alias img 'wezterm imgcat'
+alias su 'su -'
