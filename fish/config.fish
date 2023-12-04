@@ -154,3 +154,6 @@ alias lg 'sudo lazygit'
 alias q exit
 alias img 'wezterm imgcat'
 alias su 'su -'
+
+abbr v nvim
+abbr g git
