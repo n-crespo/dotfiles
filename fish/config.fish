@@ -68,7 +68,7 @@ end
 alias gst 'git status'
 alias so 'omf reload'
 
-alias cat bat
+abbr cat bat
 alias ebrc 'nvim ~/.bashrc'
 alias cp 'cp -i'
 alias mv 'mv -i'
@@ -133,9 +133,9 @@ alias c 'cd ~/.config/nvim;nvim init.lua'
 alias cs 'cd ~/grade-12/cs/'
 alias csa 'cd ~/grade-12/csa/'
 # wsl specific, open explorer in cwd
-alias exp '/mnt/c/Windows/explorer.exe .'
+alias exp 'wopen .'
 alias n 'cd ~/.nb/;nb'
-alias ra ranger
+abbr ra ranger
 # remove all Windows generated end line characters (^ M)
 # alias rmm 'dos2unix -c mac'
 # reload ssh-key
@@ -146,14 +146,14 @@ alias l 'ls -l --group-directories-first'
 # wsl specific, open in windows system viewer (converted to vim binding)
 # alias open 'powershell.exe -Command Start-Process file'
 alias ctheme 'echo "$OMB_THEME_RANDOM_SELECTED"'
-alias lg lazygit
+abbr lg lazygit
 alias nala 'sudo nala'
 alias wopen wsl-open
 # alias nvim 'sudo nvim'
 alias lg 'sudo lazygit'
-alias q exit
-alias img 'wezterm imgcat'
+abbr img 'wezterm imgcat'
 alias su 'su -'
 
 abbr v nvim
 abbr g git
+abbr q exit
