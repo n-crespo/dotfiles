@@ -1,0 +1,61 @@
+! 2023-08-27 https://myaccount.nytimes.com
+myaccount.nytimes.com##.e1e6zg661.css-d4tm4z-StyledForm
+
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+
+! Chris Titus
+
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-browse[page-subtype="home"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)
+www.youtube.com##ytd-browse[page-subtype="trending"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts].ytd-rich-section-renderer:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-reel-shelf-renderer
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-video-with-context-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
+m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer,ytm-video-with-context-renderer)
+m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+
+! 2023-10-25 https://www.youtube.com
+www.youtube.com###container > .ytd-enforcement-message-view-model.style-scope
+www.youtube.com###container > .yt-playability-error-supported-renderers.style-scope
+
+! 2023-11-01 https://www.youtube.com
+! These block the recommended feed, sidebar, and header on youtube
+www.youtube.com###masthead > .ytd-masthead.style-scope
+www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com###copyright
+
+! 2023-11-01 https://www.youtube.com
+! Hide download yt button
+www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape
+
+! 2023-11-01 https://www.youtube.com
+! Hide random share/download buttons under video
+www.youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope
+
+! 2023-11-04 https://www.youtube.com
+! hide endscreen
+www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
+
+! I am using chrome, trust
+www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
+
