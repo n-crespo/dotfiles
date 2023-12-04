@@ -76,7 +76,7 @@ alias rm 'trash -v'
 alias mkdir 'mkdir -p'
 alias ps 'ps auxf'
 alias ping 'ping -c 10'
-alias cls clear
+abbr cls clear
 alias home 'cd '
 alias .. 'cd ..'
 alias .. 'cd ..'
