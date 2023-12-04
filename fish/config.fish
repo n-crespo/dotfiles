@@ -17,6 +17,7 @@ set -gx EDITOR nvim
 
 # add cmd.exe to path
 set -x PATH $PATH /mnt/c/WINDOWS/system32
+fish_add_path /usr/local/bin/lsd/
 
 # #34e2e2
 set pure_color_primary 34e2e2
