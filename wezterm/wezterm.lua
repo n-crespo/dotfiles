@@ -14,7 +14,9 @@ end
 -- Below is some fancy tab settings
 -- For example, changing the color scheme:
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.6
+config.window_background_opacity = 0.7
+config.warn_about_missing_glyphs = false
+-- config.win32_system_backdrop = "Tabbed"
 config.color_scheme = "Tango (terminal.sexy)"
 -- config.color_scheme = "Glacier"
 config.colors = {
@@ -42,7 +44,7 @@ config.window_padding = {
 	bottom = 0,
 }
 
-config.font_size = 12
+config.font_size = 11.5
 config.keys = {
 	{
 		key = "|",
