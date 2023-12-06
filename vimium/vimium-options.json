@@ -1,7 +1,7 @@
 {
   "filterLinkHints": true,
   "hideHud": true,
-  "keyMappings": "map p openCopiedUrlInCurrentTab\n\n\nunmap t\nunmap J\nunmap K\nmap H previousTab\nmap L nextTab\nmap J goBack\nmap K goForward\n\nunmap <a-f>",
+  "keyMappings": "map p openCopiedUrlInCurrentTab\nmap <c-v> openCopiedUrlInCurrentTab\n\nunmap t\nunmap J\nunmap K\nmap H previousTab\nmap L nextTab\nmap J goBack\nmap K goForward\n\nunmap <a-f>",
   "linkHintCharacters": "asdfghjklzxcvbnm",
   "linkHintNumbers": "asdfghjklzxcvbnm",
   "scrollStepSize": 80,
