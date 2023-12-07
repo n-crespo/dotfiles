@@ -15,6 +15,9 @@ end
 set -Ux EDITOR nvim
 set -gx EDITOR nvim
 
+# fix vscode
+export DISPLAY =: 0
+
 # add cmd.exe to path
 set -x PATH $PATH /mnt/c/WINDOWS/system32
 fish_add_path /usr/local/bin/lsd/
