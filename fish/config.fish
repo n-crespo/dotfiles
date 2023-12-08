@@ -70,7 +70,13 @@ function rjava
     javac $argv[1].java; and java $argv[1]
 end
 
-alias gst 'git status'
+function g:
+    git add .
+    git commit -m "$argv"
+    git push
+end
+
+alias gs 'git status'
 alias so 'omf reload'
 
 abbr cat bat
