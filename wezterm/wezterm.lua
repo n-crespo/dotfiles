@@ -10,6 +10,30 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 -- This is where you actually apply your config choices
+config.animation_fps = 10
+-- config.enable_scroll_bar = true
+config.cursor_blink_ease_in = "Constant"
+config.freetype_load_target = "Normal"
+-- config.integrated_title_buttons = { 'Hide', 'Maximize', 'Close' }
+config.integrated_title_buttons = {}
+config.cursor_blink_ease_out = "Constant"
+config.show_new_tab_button_in_tab_bar = false
+config.hide_mouse_cursor_when_typing = true
+config.line_height = 1
+-- config.term = "wezterm"
+
+config.window_frame = {
+	inactive_titlebar_bg = "#000000",
+	active_titlebar_bg = "#000000",
+	inactive_titlebar_fg = "#cccccc",
+	active_titlebar_fg = "#ffffff",
+	-- inactive_titlebar_border_bottom = "#2b2042",
+	-- active_titlebar_border_bottom = "#2b2042",
+	button_fg = "#000000",
+	button_bg = "#000000",
+	button_hover_fg = "#000000",
+	button_hover_bg = "#000000",
+}
 
 -- Below is some fancy tab settings
 -- For example, changing the color scheme:
@@ -17,7 +41,7 @@ config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.7
 config.warn_about_missing_glyphs = false
 -- config.win32_system_backdrop = "Tabbed"
-config.color_scheme = "Tango (terminal.sexy)"
+-- config.color_scheme = "Tango (terminal.sexy)"
 -- config.color_scheme = "Glacier"
 config.colors = {
 	-- background = "transparent",
@@ -35,7 +59,6 @@ config.use_fancy_tab_bar = true
 -- config.default_prog = { "ubuntu", "run", "bash" }
 config.default_prog = { "pwsh", "--nologo" }
 config.enable_kitty_graphics = true
--- config.use_fancy_tab_bar = false
 config.audible_bell = "Disabled"
 config.window_padding = {
 	left = 0,
