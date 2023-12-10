@@ -19,6 +19,21 @@ set -gx EDITOR nvim
 set -x DISPLAY :0
 
 set -x FZF_DEFAULT_COMMAND 'find .'
+# CTRL-/ to toggle small preview window to see the full command
+# CTRL-Y to copy the command into clipboard using pbcopy
+set -x FZF_CTRL_R_OPTS "
+  --preview 'echo {}' --preview-window up:3:hidden:wrap
+  --bind 'ctrl-/:toggle-preview'
+  --bind 'ctrl-y:execute-silent(echo -n {2..} | pbcopy)+abort'
+  --color header:italic
+  --header 'Press CTRL-Y to copy command into clipboard'"
+
+
+set -x FZF_CTRL_O_OPTS "
+  --preview='bat --color=always --style=plain {}'
+"
+
+set -x FZF_ALT_C_OPTS "--preview 'tree -C {}'"
 
 # add cmd.exe to path
 set -x PATH $PATH /mnt/c/WINDOWS/system32
