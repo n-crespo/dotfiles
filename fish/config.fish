@@ -18,7 +18,7 @@ set -gx EDITOR nvim
 # fix vscode
 set -x DISPLAY :0
 
-set -x FZF_DEFAULT_COMMAND='find .'
+set -x FZF_DEFAULT_COMMAND 'find .'
 
 # add cmd.exe to path
 set -x PATH $PATH /mnt/c/WINDOWS/system32
