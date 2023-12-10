@@ -18,6 +18,7 @@ set -gx EDITOR nvim
 # fix vscode
 set -x DISPLAY :0
 
+set -x FZF_DEFAULT_COMMAND='find .'
 
 # add cmd.exe to path
 set -x PATH $PATH /mnt/c/WINDOWS/system32
@@ -33,7 +34,7 @@ set pure_color_info 4e9a06
 set pure_color_mute 4e9a06
 
 
-set pure_enable_single_line_prompt false
+set pure_enable_single_line_prompt true
 set pure_begin_prompt_with_current_directory true
 set pure_separate_prompt_on_error true
 set pure_show_prefix_root_prompt true
