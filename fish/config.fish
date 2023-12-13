@@ -74,7 +74,7 @@ function mdtodocx
 end
 
 function nn
-    nb $argv[1]
+    nb $argv[1]:
     cd ~/.nb/$argv[1]
 end
 
@@ -127,7 +127,7 @@ alias lm 'ls -alh |more' # pipe through 'more'
 alias lw 'ls -xAh' # wide listing format
 alias ll 'ls -l' # long listing format
 alias labc 'ls -lap' #alphabetical sort
-alias lf "ls -l | egrep -v '^d'" # files only
+# alias lf "ls -l | egrep -v '^d'" # files only
 alias ldir "ls -l | egrep '^d'" # directories only
 
 # Search running processes
@@ -184,3 +184,4 @@ alias su 'su -'
 abbr v nvim
 abbr g git
 abbr q exit
+eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
