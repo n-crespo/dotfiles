@@ -18,6 +18,8 @@ set -gx EDITOR nvim
 # fix vscode
 set -x DISPLAY :0
 
+set -x RANGER_DEVICONS_SEPARATOR " "
+
 set -x FZF_DEFAULT_COMMAND 'find .'
 # CTRL-/ to toggle small preview window to see the full command
 # CTRL-Y to copy the command into clipboard using pbcopy
@@ -161,8 +163,9 @@ alias cs 'cd ~/grade-12/cs/'
 alias csa 'cd ~/grade-12/csa/'
 # wsl specific, open explorer in cwd
 alias exp 'wopen .'
-alias n 'cd ~/.nb/;nb'
+# alias n 'cd ~/.nb/;nb'
 abbr ra ranger
+abbr n nvim
 # remove all Windows generated end line characters (^ M)
 # alias rmm 'dos2unix -c mac'
 # reload ssh-key
