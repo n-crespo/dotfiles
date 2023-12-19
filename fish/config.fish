@@ -171,7 +171,6 @@ abbr n nvim
 # reload ssh-key
 # alias s 'eval "$(ssh-agent -s)" ; ssh-add ~/.ssh/usernicolas'
 alias shutdown '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -c wsl --shutdown'
-alias v 's;nvim'
 alias l 'ls -l --group-directories-first'
 # wsl specific, open in windows system viewer (converted to vim binding)
 # alias open 'powershell.exe -Command Start-Process file'
@@ -184,7 +183,7 @@ alias lg 'sudo lazygit'
 abbr img 'wezterm imgcat'
 alias su 'su -'
 
-abbr v nvim
+abbr v vim
 abbr g git
 abbr q exit
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
