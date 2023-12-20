@@ -1,0 +1,2 @@
+NOTE: I no longer use this userChrome.css file, I instead use various UI tweaks
+built into the Floorp browser. It's much easier to customize.
