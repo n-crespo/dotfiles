@@ -34,7 +34,7 @@ www.youtube.com###container > .yt-playability-error-supported-renderers.style-sc
 
 ! 2023-11-01 https://www.youtube.com
 ! These block the recommended feed, sidebar, and header on youtube
-www.youtube.com###masthead > .ytd-masthead.style-scope
+
 www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
@@ -58,4 +58,15 @@ www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-en
 
 ! I am using chrome, trust
 www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
+
+! 2023-12-06 https://www.youtube.com
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope > .yt-spec-button-view-model > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > yt-touch-feedback-shape > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+
+! 2023-12-22 https://www.youtube.com
+www.youtube.com###icon > .yt-icon-button.style-scope
+
+! icons in the header bar
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+www.youtube.com###guide-button
 
