@@ -24,11 +24,9 @@ set -x FZF_DEFAULT_COMMAND 'find .'
 # CTRL-/ to toggle small preview window to see the full command
 # CTRL-Y to copy the command into clipboard using pbcopy
 set -x FZF_CTRL_R_OPTS "
-  --preview 'echo {}' --preview-window up:3:hidden:wrap
+  --preview 'bat {}' --preview-window up:3:hidden:wrap
   --bind 'ctrl-/:toggle-preview'
-  --bind 'ctrl-y:execute-silent(echo -n {2..} | pbcopy)+abort'
-  --color header:italic
-  --header 'Press CTRL-Y to copy command into clipboard'"
+  "
 
 
 set -x FZF_CTRL_O_OPTS "
@@ -114,9 +112,9 @@ alias .... 'cd ../../..'
 alias ..... 'cd ../../../..'
 
 # Alias's for multiple directory listing commands
-alias la 'ls -alh --group-directories-first' # show hidden files
 # alias ls 'ls -aFh --color always' # add colors and file type extensions
-alias ls '/usr/local/bin/lsd/lsd --group-directories-first' # add colors and file type extensions
+alias ls 'eza --icons=always --group-directories-first' # add colors and file type extensions
+alias la 'ls -Alh --group-directories-first' # show hidden files
 alias lt 'ls --tree'
 
 alias lx 'ls -lXBh' # sort by extension
@@ -144,7 +142,7 @@ alias checkcommand "type -t"
 
 # Alias's to show disk space and space used in a folder
 alias diskspace "du -S | sort -n -r |more"
-alias tree 'tree -CAhF --dirsfirst'
+alias tree 'ls -T'
 alias treed 'tree -CAFd'
 
 # Alias's for archives
@@ -182,6 +180,7 @@ alias wopen wsl-open
 alias lg 'sudo lazygit'
 abbr img 'wezterm imgcat'
 alias su 'su -'
+abbr n. 'nvim .'
 
 abbr v vim
 abbr g git
