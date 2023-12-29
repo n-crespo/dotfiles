@@ -38,7 +38,7 @@ config.window_frame = {
 -- Below is some fancy tab settings
 -- For example, changing the color scheme:
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.7
+config.window_background_opacity = 0.6
 config.warn_about_missing_glyphs = false
 -- config.win32_system_backdrop = "Tabbed"
 config.color_scheme = "MaterialDesignColors"
@@ -46,16 +46,16 @@ config.color_scheme = "MaterialDesignColors"
 config.colors = {
 	background = "#000000",
 	selection_fg = "#1c2128",
-	selection_bg = "#7ce38b",
+	selection_bg = "#286fff",
 	cursor_bg = "#7ce38b",
-	cursor_border = "#7ce38b",
+	cursor_border = "#286fff",
 	cursor_fg = "#1c2128",
 }
--- config.font = wezterm.font("JetBrainsMono Nerd Font Mono")
+config.font = wezterm.font("JetBrains Mono Regular")
 -- config.exit_behavior = "Hold"
 -- config.enable_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
-config.use_fancy_tab_bar = true
+config.use_fancy_tab_bar = false
 -- config.default_prog = { "ubuntu", "run", "bash" }
 config.default_prog = { "pwsh", "--nologo" }
 config.enable_kitty_graphics = true
@@ -63,11 +63,11 @@ config.audible_bell = "Disabled"
 config.window_padding = {
 	left = 0,
 	right = 0,
-	top = 0,
+	top = 2,
 	bottom = 0,
 }
 
-config.font_size = 11.5
+config.font_size = 11.25
 config.keys = {
 	{
 		key = "|",
