@@ -51,7 +51,44 @@ config.colors = {
 	cursor_border = "#286fff",
 	cursor_fg = "#1c2128",
 }
-config.font = wezterm.font("JetBrains Mono Regular")
+
+config.font = wezterm.font({ family = "JetBrainsMono Nerd Font" })
+
+-- config.font = wezterm.font("JetBrainsMono Nerd Font")
+-- config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Bold" })
+-- config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Italic" })
+-- config.font.antialias = "None"
+
+config.font = wezterm.font({ family = "JetBrainsMono Nerd Font" })
+
+config.font_rules = {
+	{
+		intensity = "Bold",
+		italic = true,
+		font = wezterm.font({
+			family = "JetBrainsMono Nerd Font",
+			weight = "Bold",
+			style = "Italic",
+		}),
+	},
+	{
+		italic = false,
+		intensity = "Bold",
+		font = wezterm.font({
+			family = "JetBrainsMono Nerd Font",
+			weight = "Bold",
+		}),
+	},
+	{
+		italic = true,
+		intensity = "Normal",
+		font = wezterm.font({
+			family = "JetBrainsMono Nerd Font",
+			style = "Italic",
+		}),
+	},
+}
+
 -- config.exit_behavior = "Hold"
 -- config.enable_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
