@@ -1,1 +1,1 @@
-./.wezterm.lua
+/mnt/c/Users/nicol/.wezterm.lua
