@@ -122,11 +122,12 @@ alias ..... 'cd ../../../..'
 
 # maintaining dotfiles
 alias dots 'echo "bash, zsh, fish, pwsh, wezterm"'
-abbr dotbash 'nvim -d /root/.bashrc ~/dot-files/bash/.bashrc'
-abbr dotfish 'nvim -d ~/.config/fish/config.fish ~/dot-files/fish/config.fish'
-abbr dotzsh 'nvim -d /root/.zshrc ~/dot-files/zsh/.zshrc'
-abbr dotpwsh 'nvim -d /mnt/c/Users/nicol/'
-abbr dotwez 'nvim -d /mnt/c/Users/nicol/.wezterm.lua ~/dot-files/wezterm/.wezterm.lua'
+alias dotbash 'nvim -d /root/.bashrc ~/dot-files/bash/.bashrc'
+alias dotfish 'nvim -d ~/.config/fish/config.fish ~/dot-files/fish/config.fish'
+alias dotzsh 'nvim -d /root/.zshrc ~/dot-files/zsh/.zshrc'
+alias dotpwsh 'nvim -d /mnt/c/Users/nicol/'
+alias dotwez 'nvim -d /mnt/c/Users/nicol/.wezterm.lua ~/dot-files/wezterm/.wezterm.lua'
+alias dotpwsh 'nvim -d /mnt/c/Users/nicol/Documents/Powershell/Microsoft.PowerShell_profile.ps1 ~/dot-files/pwsh/Microsoft.PowerShell_profile.ps1'
 
 # Alias's for multiple directory listing commands
 # alias ls 'ls -aFh --color always' # add colors and file type extensions
