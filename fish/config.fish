@@ -86,6 +86,15 @@ function rjava
     javac $argv[1].java; and java $argv[1]
 end
 
+# alias lg 'pkill ssh;s;lazygit'
+# this could be dangerous, but there is no need for more than one ssh process at
+# a time
+function lg
+    pkill ssh
+    s
+    lazygit
+end
+
 function g:
     git add .
     git commit -m "$argv"
@@ -110,6 +119,14 @@ alias .. 'cd ..'
 alias ... 'cd ../..'
 alias .... 'cd ../../..'
 alias ..... 'cd ../../../..'
+
+# maintaining dotfiles
+alias dots 'echo "bash, zsh, fish, pwsh, wezterm"'
+abbr dotbash 'nvim -d /root/.bashrc ~/dot-files/bash/.bashrc'
+abbr dotfish 'nvim -d ~/.config/fish/config.fish ~/dot-files/fish/config.fish'
+abbr dotzsh 'nvim -d /root/.zshrc ~/dot-files/zsh/.zshrc'
+abbr dotpwsh 'nvim -d /mnt/c/Users/nicol/'
+abbr dotwez 'nvim -d /mnt/c/Users/nicol/.wezterm.lua ~/dot-files/wezterm/.wezterm.lua'
 
 # Alias's for multiple directory listing commands
 # alias ls 'ls -aFh --color always' # add colors and file type extensions
@@ -155,13 +172,13 @@ alias ungz 'tar -xvzf'
 
 # rerun previous command
 # alias r 'fc -s'
+
 # jump to neovim config
 alias c 'cd ~/.config/nvim;nvim init.lua'
 alias cs 'cd ~/grade-12/cs/'
 alias csa 'cd ~/grade-12/csa/'
 # wsl specific, open explorer in cwd
 alias exp 'wopen .'
-# alias n 'cd ~/.nb/;nb'
 abbr ra ranger
 abbr n nvim
 # remove all Windows generated end line characters (^ M)
@@ -170,14 +187,9 @@ abbr n nvim
 # alias s 'eval "$(ssh-agent -s)" ; ssh-add ~/.ssh/usernicolas'
 alias shutdown '/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -c wsl --shutdown'
 alias l 'ls -l --group-directories-first'
-# wsl specific, open in windows system viewer (converted to vim binding)
-# alias open 'powershell.exe -Command Start-Process file'
 alias ctheme 'echo "$OMB_THEME_RANDOM_SELECTED"'
-abbr lg lazygit
 alias nala 'sudo nala'
 alias wopen wsl-open
-# alias nvim 'sudo nvim'
-alias lg 'sudo lazygit'
 abbr img 'wezterm imgcat'
 alias su 'su -'
 abbr n. 'nvim .'

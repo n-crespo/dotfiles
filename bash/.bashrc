@@ -5,11 +5,11 @@ case $- in
 esac
 
 # Path to your oh-my-bash installation.
-export OSH='/home/nicolas/.oh-my-bash'
+export OSH='/root/.oh-my-bash'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-# OSH_THEME="powerline"
+# OSH_THEME="minimal"
 OSH_THEME="garo"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -261,8 +261,8 @@ alias ra='ranger'
 # remove all Windows generated end line characters (^ M)
 alias rmm='dos2unix -c mac'
 # reload ssh-key
-alias s='eval "$(ssh-agent -s)" ; ssh-add ~/.ssh/usernicolas'
-alias shutdown='/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -c wsl --shutdown'
+alias s='eval "$(ssh-agent -s)" ; ssh-add ~/.ssh/id_ed25519'
+alias shutdown='powershell.exe wsl --shutdown'
 alias so='source ~/.bashrc'
 alias v='s;nvim'
 alias l='ls -l --group-directories-first'
@@ -271,9 +271,9 @@ alias l='ls -l --group-directories-first'
 alias ctheme='echo "$OMB_THEME_RANDOM_SELECTED"'
 alias lg='lazygit'
 alias nala='sudo nala'
-alias wopen='/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command Start'
+alias wopen='wsl-open'
 alias q='exit'
-alias su='su -'
+alias pow='./mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe'
 
 nn() {
 	nb "${1}"
@@ -319,6 +319,26 @@ extract() {
 			echo "'$archive' is not a valid file!"
 		fi
 	done
+}
+
+# Create and go to the directory
+mkdirg() {
+	mkdir -p "$1"
+	cd "$1"
+}
+
+# Goes up a specified number of directories  (i.e. up 4)
+up() {
+	local d=""
+	limit=$1
+	for ((i = 1; i <= limit; i++)); do
+		d=$d/..
+	done
+	d=$(echo $d | sed 's/^\///')
+	if [ -z "$d" ]; then
+		d=..
+	fi
+	cd $d
 }
 
 # Show the current distribution
@@ -421,7 +441,8 @@ else
 fi
 
 # for some reasons these don't work correctly
-export PATH=$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+# export PATH=$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+export PATH=$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0
 export PATH=$PATH:/mnt/c/Windows/explorer.exe
 export EDITOR="/bin/nvim"
 export PATH=$PATH:/mnt/c/WINDOWS/system32
