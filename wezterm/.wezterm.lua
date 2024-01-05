@@ -30,6 +30,7 @@ config.color_scheme = "MaterialDesignColors"
 config.font_size = 11.25
 config.adjust_window_size_when_changing_font_size = false
 config.switch_to_last_active_tab_when_closing_tab = true
+config.tab_max_width = 30
 -- config.enable_scroll_bar = true
 -- config.integrated_title_buttons = { 'Hide', 'Maximize', 'Close' }
 -- config.exit_behavior = "Hold"
