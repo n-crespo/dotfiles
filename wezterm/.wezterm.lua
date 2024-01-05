@@ -11,13 +11,6 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
--- config.enable_scroll_bar = true
--- config.integrated_title_buttons = { 'Hide', 'Maximize', 'Close' }
--- config.exit_behavior = "Hold"
--- config.enable_tab_bar = false
--- config.default_prog = { "ubuntu", "run", "bash" }
--- config.term = "wezterm"
--- config.win32_system_backdrop = "Tabbed"
 config.cursor_blink_ease_in = "Constant"
 config.freetype_load_target = "Normal"
 config.integrated_title_buttons = {}
@@ -26,7 +19,7 @@ config.show_new_tab_button_in_tab_bar = false
 config.hide_mouse_cursor_when_typing = true
 config.line_height = 1
 config.hide_tab_bar_if_only_one_tab = true
-config.use_fancy_tab_bar = false
+config.use_fancy_tab_bar = true
 config.default_prog = { "pwsh", "--nologo" }
 config.enable_kitty_graphics = true
 config.audible_bell = "Disabled"
@@ -36,6 +29,14 @@ config.warn_about_missing_glyphs = true
 config.color_scheme = "MaterialDesignColors"
 config.font_size = 11.25
 config.adjust_window_size_when_changing_font_size = false
+config.switch_to_last_active_tab_when_closing_tab = true
+-- config.enable_scroll_bar = true
+-- config.integrated_title_buttons = { 'Hide', 'Maximize', 'Close' }
+-- config.exit_behavior = "Hold"
+-- config.enable_tab_bar = false
+-- config.default_prog = { "ubuntu", "run", "bash" }
+-- config.term = "wezterm"
+-- config.win32_system_backdrop = "Tabbed"
 
 -- colors and padding
 config.colors = {
@@ -63,6 +64,7 @@ local SOLID_RIGHT_ARROW = wezterm.nerdfonts.pl_left_hard_divider
 -- It prefers the title that was set via `tab:set_title()`
 -- or `wezterm cli set-tab-title`, but falls back to the
 -- title of the active pane in that tab.
+---@diagnostic disable-next-line: lowercase-global
 function tab_title(tab_info)
 	local title = tab_info.tab_title
 	-- if the tab title is explicitly set, take that
@@ -75,15 +77,16 @@ function tab_title(tab_info)
 end
 
 -- background around tabs
-config.window_frame = { active_titlebar_bg = "#0e0e0e" }
+config.window_frame = { active_titlebar_bg = "#000000" }
 -- actual tab config
+---@diagnostic disable-next-line: unused-local, redefined-local
 wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_width)
-	local edge_background = "#0e0e0e"
-	local background = "#1b1032"
+	local edge_background = "#000000"
+	local background = "#101010"
 	local foreground = "#808080"
 
 	if tab.is_active then
-		background = "#2b2042"
+		background = "#252525"
 		foreground = "#c0c0c0"
 	elseif hover then
 		background = "#3b3052"
