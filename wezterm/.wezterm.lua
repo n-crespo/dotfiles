@@ -31,6 +31,7 @@ config.font_size = 11.25
 config.adjust_window_size_when_changing_font_size = false
 config.switch_to_last_active_tab_when_closing_tab = true
 config.tab_max_width = 30
+config.tab_bar_at_bottom = true
 -- config.enable_scroll_bar = true
 -- config.integrated_title_buttons = { 'Hide', 'Maximize', 'Close' }
 -- config.exit_behavior = "Hold"
@@ -50,9 +51,9 @@ config.colors = {
 	cursor_fg = "#1c2128",
 }
 config.window_padding = {
-	left = 0,
-	right = 0,
-	top = 0,
+	left = 1,
+	right = 1,
+	top = 6,
 	bottom = 0,
 }
 
@@ -90,7 +91,7 @@ wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_wid
 		background = "#252525"
 		foreground = "#c0c0c0"
 	elseif hover then
-		background = "#3b3052"
+		background = "#202020"
 		foreground = "#909090"
 	end
 
@@ -99,18 +100,18 @@ wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_wid
 
 	-- ensure that the titles fit in the available space,
 	-- and that we have room for the edges.
-	title = wezterm.truncate_right(title, max_width - 2)
+	-- title = wezterm.truncate_right(title, max_width - 2)
 
 	return {
-		{ Background = { Color = edge_background } },
-		{ Foreground = { Color = edge_foreground } },
-		{ Text = SOLID_LEFT_ARROW },
+		{ Background = { Color = background } },
+		{ Foreground = { Color = foreground } },
+		-- { Text = SOLID_LEFT_ARROW },
 		{ Background = { Color = background } },
 		{ Foreground = { Color = foreground } },
 		{ Text = title },
-		{ Background = { Color = edge_background } },
-		{ Foreground = { Color = edge_foreground } },
-		{ Text = SOLID_RIGHT_ARROW },
+		{ Background = { Color = background } },
+		{ Foreground = { Color = foreground } },
+		-- { Text = SOLID_RIGHT_ARROW },
 	}
 end)
 
