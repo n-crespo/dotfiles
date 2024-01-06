@@ -59,8 +59,8 @@ config.window_padding = {
 
 -- custom tabs
 -- The filled in variant of the < symbol and > symbol
-local SOLID_LEFT_ARROW = wezterm.nerdfonts.pl_right_hard_divider
-local SOLID_RIGHT_ARROW = wezterm.nerdfonts.pl_left_hard_divider
+-- local SOLID_LEFT_ARROW = wezterm.nerdfonts.pl_right_hard_divider
+-- local SOLID_RIGHT_ARROW = wezterm.nerdfonts.pl_left_hard_divider
 
 -- This function returns the suggested title for a tab.
 -- It prefers the title that was set via `tab:set_title()`
