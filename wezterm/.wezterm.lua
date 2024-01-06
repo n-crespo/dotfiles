@@ -51,8 +51,8 @@ config.colors = {
 	cursor_fg = "#1c2128",
 }
 config.window_padding = {
-	left = 1,
-	right = 1,
+	left = 0,
+	right = 0,
 	top = 6,
 	bottom = 0,
 }
