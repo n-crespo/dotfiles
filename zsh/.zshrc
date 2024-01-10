@@ -6,5 +6,14 @@ alias ping='ping -c 10'
 alias so='source ~/.zshrc'
 alias home='cd ~'
 set -o vi
-su nicolas
+alias n='nvim'
+alias ra='ranger'
+alias rm='trash -v'
+alias ..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias su='su - '
+PROMPT="%d -> "
 
