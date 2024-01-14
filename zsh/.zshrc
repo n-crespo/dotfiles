@@ -15,5 +15,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias su='su - '
-PROMPT="%d -> "
+PROMPT="%d  "
+
 
