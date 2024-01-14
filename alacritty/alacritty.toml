@@ -1,4 +1,4 @@
-shell = "powershell"
+shell = "pwsh --nologo"
 live_config_reload = true
 
 [window]
