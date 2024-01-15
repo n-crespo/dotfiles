@@ -200,6 +200,7 @@ abbr g git
 abbr q exit
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 abbr sl ls
+abbr dc cd
 
 # set -Ux LD_LIBRARY_PATH /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server $LD_LIBRARY_PATH
 set -Ux LD_LIBRARY_PATH /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server $LD_LIBRARY_PATH
