@@ -51,7 +51,7 @@ set pure_color_mute 4e9a06
 
 set pure_enable_single_line_prompt true
 set pure_begin_prompt_with_current_directory true
-set pure_separate_prompt_on_error true
+set pure_separate_prompt_on_error false
 set pure_show_prefix_root_prompt true
 set pure_threshold_command_duration 5
 set pure_symbol_prompt '→'
@@ -127,9 +127,6 @@ alias dotfish 'nvim -d ~/.config/fish/config.fish ~/dot-files/fish/config.fish'
 alias dotzsh 'nvim -d /root/.zshrc ~/dot-files/zsh/.zshrc'
 alias dotpwsh 'nvim -d /mnt/c/Users/nicol/'
 alias dotwez 'nvim -d /mnt/c/Users/nicol/.wezterm.lua ~/dot-files/wezterm/.wezterm.lua'
-function dotpwsh
-    nvim -d /mnt/c/Users/nicol/Documents/Powershell/Microsoft.PowerShell_profile.ps1 ~/dot-files/pwsh/Microsoft.PowerShell_profile.ps1
-end
 
 # Alias's for multiple directory listing commands
 # alias ls 'ls -aFh --color always' # add colors and file type extensions
