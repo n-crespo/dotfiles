@@ -20,7 +20,11 @@ set -x DISPLAY :0
 
 set -x RANGER_DEVICONS_SEPARATOR " "
 
-set -x FZF_DEFAULT_COMMAND 'find .'
+# set -x FZF_DEFAULT_COMMAND 'find .'
+# set -Ux FZF_DEFAULT_COMMAND 'rg --hidden --no-ignore -l ""'
+set -Ux FZF_DEFAULT_COMMAND "rg --files --follow --no-ignore-vcs --hidden -g '!{**/node_modules/*,**/.git/*}'"
+# set -Ux FZF_CTRL_O_COMMAND 'rg --hidden --no-ignore -l ""'
+
 # CTRL-/ to toggle small preview window to see the full command
 # CTRL-Y to copy the command into clipboard using pbcopy
 set -x FZF_CTRL_R_OPTS "
@@ -28,16 +32,14 @@ set -x FZF_CTRL_R_OPTS "
   --bind 'ctrl-/:toggle-preview'
   "
 
+# bind -M insert \cc kill-whole-line repaint
 
-set -x FZF_CTRL_O_OPTS "
-  --preview='bat --color=always --style=plain {}'
-"
+set -x FZF_CTRL_O_OPTS "--preview='bat --theme OneHalfDark {}'"
 
-set -x FZF_ALT_C_OPTS "--preview 'tree -C {}'"
+set -Ux FZF_ALT_C_OPTS "--preview 'lt --color {}'"
 
 # add cmd.exe to path
 set -x PATH $PATH /mnt/c/WINDOWS/system32
-fish_add_path /usr/local/bin/lsd/
 
 # #2bbac5
 set pure_color_primary 34e2e2
@@ -204,3 +206,5 @@ abbr dc cd
 
 # set -Ux LD_LIBRARY_PATH /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server $LD_LIBRARY_PATH
 set -Ux LD_LIBRARY_PATH /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server $LD_LIBRARY_PATH
+
+set -U fish_user_paths /home/nicolas/.cargo/bin $fish_user_paths
