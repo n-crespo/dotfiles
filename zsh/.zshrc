@@ -1,3 +1,4 @@
+
 alias q='exit'
 alias cls='clear'
 alias l='ls -alh'
@@ -15,4 +16,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias su='su - '
+alias pwsh='pwsh.exe'
 PROMPT="%d  "
+su nicolas;s
