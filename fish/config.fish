@@ -15,28 +15,11 @@ end
 set -Ux EDITOR nvim
 set -gx EDITOR nvim
 
+set -Ux FZF_DEFAULT_OPTS "--height 100% --no-preview "
+
 # fix vscode
 set -x DISPLAY :0
-
 set -x RANGER_DEVICONS_SEPARATOR " "
-
-# set -x FZF_DEFAULT_COMMAND 'find .'
-# set -Ux FZF_DEFAULT_COMMAND 'rg --hidden --no-ignore -l ""'
-set -Ux FZF_DEFAULT_COMMAND "rg --files --follow --no-ignore-vcs --hidden -g '!{**/node_modules/*,**/.git/*}'"
-# set -Ux FZF_CTRL_O_COMMAND 'rg --hidden --no-ignore -l ""'
-
-# CTRL-/ to toggle small preview window to see the full command
-# CTRL-Y to copy the command into clipboard using pbcopy
-set -x FZF_CTRL_R_OPTS "
-  --preview 'bat {}' --preview-window up:3:hidden:wrap
-  --bind 'ctrl-/:toggle-preview'
-  "
-
-# bind -M insert \cc kill-whole-line repaint
-
-set -x FZF_CTRL_O_OPTS "--preview='bat --theme OneHalfDark {}'"
-
-set -Ux FZF_ALT_C_OPTS "--preview 'lt --color {}'"
 
 # add cmd.exe to path
 set -x PATH $PATH /mnt/c/WINDOWS/system32
@@ -67,6 +50,7 @@ set pure_show_subsecond_command_duration false
 
 
 function s
+    # pkill ssh
     eval (ssh-agent -c)
     ssh-add ~/.ssh/usernicolas
 end
@@ -112,7 +96,7 @@ alias cp 'cp -i'
 alias mv 'mv -i'
 alias rm 'trash -v'
 alias mkdir 'mkdir -p'
-alias ps 'ps auxf'
+alias psa 'ps auxf'
 alias ping 'ping -c 10'
 abbr cls clear
 alias home 'cd '
@@ -206,5 +190,14 @@ abbr dc cd
 
 # set -Ux LD_LIBRARY_PATH /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server $LD_LIBRARY_PATH
 set -Ux LD_LIBRARY_PATH /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server $LD_LIBRARY_PATH
-
 set -U fish_user_paths /home/nicolas/.cargo/bin $fish_user_paths
+
+set temp_value (ps -o ppid= -p $fish_pid)
+set temp_value (string trim $temp_value)
+set temp_value (ps -o comm -p $temp_value | tail -n +2 | grep -v '^$')
+# echo $temp_value
+
+if test "$temp_value" = su
+    s >/dev/null 2>&1
+    echo "ssh-key added!"
+end
