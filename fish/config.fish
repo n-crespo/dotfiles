@@ -192,12 +192,12 @@ abbr dc cd
 set -Ux LD_LIBRARY_PATH /usr/lib/jvm/java-1.11.0-openjdk-amd64/lib/server $LD_LIBRARY_PATH
 set -U fish_user_paths /home/nicolas/.cargo/bin $fish_user_paths
 
-set temp_value (ps -o ppid= -p $fish_pid)
-set temp_value (string trim $temp_value)
-set temp_value (ps -o comm -p $temp_value | tail -n +2 | grep -v '^$')
-# echo $temp_value
+set parent_process (ps -o ppid= -p $fish_pid)
+set parent_process (string trim $parent_process)
+set parent_process (ps -o comm -p $parent_process | tail -n +2 | grep -v '^$')
+# echo $parent_process
 
-if test "$temp_value" = su
+if test "$parent_process" = su
     s >/dev/null 2>&1
     echo "ssh-key added!"
 end
