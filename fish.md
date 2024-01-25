@@ -1,1 +1,1 @@
-See [this](https://github.com/n-crespo/fish-config)
+See [here](https://github.com/n-crespo/fish-config)
