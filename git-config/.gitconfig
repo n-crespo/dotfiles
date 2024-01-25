@@ -1,0 +1,11 @@
+[user]
+	email = nicolasecrespo@gmail.com
+	name = Nicolas
+[safe]
+	directory = /root/.config/nvim
+	directory = /root/grade-12/cs/repos/hangman-cpp
+	directory = /root/.nb/notes
+	directory = /root/.nb/nasa
+	directory = /mnt/c/Users/nicol/AppData/Local/nvim
+[core]
+	editor = nvim
