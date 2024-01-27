@@ -1,8 +1,7 @@
 {
-  "filterLinkHints": true,
   "hideHud": true,
   "keyMappings": "map p openCopiedUrlInCurrentTab\nmap q removeTab\nunmap J\nmap <a-N> moveTabToNewWindow\nunmap K\nmap s LinkHints.activateMode\nmap S LinkHints.activateModeToOpenInNewTab\nunmap f\nunmap F\nmap H previousTab\nmap L nextTab\nmap J goBack\nmap K goForward\nunmap ,\nunmap .\nunmap >\nunmap <\nunmap <<\nunmap >>\nunmap <a-f>",
-  "linkHintCharacters": "asdfghjklzxcvbnm",
+  "linkHintCharacters": "asdfghjklzxcvbnmqweruiop",
   "linkHintNumbers": "asdfghjklzxcvbnm",
   "scrollStepSize": 80,
   "settingsVersion": "2.0.6",
