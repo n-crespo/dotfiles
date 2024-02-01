@@ -16,5 +16,8 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias su='su - '
 alias pwsh='pwsh.exe'
-PROMPT="%d  "
+alias ls="eza --color=always --icons=always --group-directories-first"
+alias la="ls -a"
+alias n.="nvim ."
+PROMPT="%~  "
 su nicolas
