@@ -20,4 +20,4 @@ alias ls="eza --color=always --icons=always --group-directories-first"
 alias la="ls -a"
 alias n.="nvim ."
 PROMPT="%~  "
-su nicolas
+# su nicolas
