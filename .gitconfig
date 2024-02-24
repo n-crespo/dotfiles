@@ -4,5 +4,8 @@
 [safe]
 	directory = /root/.config/nvim
 	directory = /mnt/c/Users/nicol/AppData/Local/nvim
+	directory = /mnt/c/Users/nicol/.glaze-wm/
+	directory = /mnt/c/Users/nicol/.glaze-wm
+	directory = /mnt/c/Users/nicol/AppData/Roaming/alacritty
 [core]
 	editor = nvim

@@ -1,6 +1,4 @@
-function Exit-Shell {
-    exit
-  }
+function Exit-Shell { exit }
 
 Set-Alias -Name q -Value Exit-Shell
 Set-Alias -Name lg -Value lazygit
@@ -14,4 +12,5 @@ Set-PSReadLineOption -EditMode vi
 Remove-Alias r
 
 $env:PATH += ";C:\Program Files\Ablaze Floorp"
+
 
