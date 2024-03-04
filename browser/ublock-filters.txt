@@ -70,3 +70,28 @@ www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
 www.youtube.com###guide-button
 
+! 2024-01-02 https://musescore.com
+musescore.com##.Y3H7b.rRSN2.lTnI0
+
+! 2024-01-14 https://www.youtube.com
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+
+! 2024-01-25 https://twitter.com
+twitter.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-oyd9sg.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(8)
+twitter.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-oyd9sg.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(5)
+twitter.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-oyd9sg.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(9)
+
+
+! 2024-02-07 https://www.azom.com
+||d12oja0ew7x0i8.cloudfront.net/themes/Standard/images/azom_logo_v3.png$image
+
+! 2024-02-12 https://www.youtube.com
+www.youtube.com##.ytd-notification-topbar-button-renderer.style-scope
+]
+
+! 2024-03-03 https://www.reddit.com
+www.reddit.com##._1oRQu-aolgpPPJDblUGTw5
+www.reddit.com##.TmgZY6tDcdErbE5d7E0HJ
+www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
+www.reddit.com##._1tvThPWQpORoc2taKebHxs._3Kd8DQpBIbsr5E1JcrMFTY
+
