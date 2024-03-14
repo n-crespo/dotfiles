@@ -118,7 +118,7 @@
 }
 
 #navigator-toolbox-background:-moz-window-inactive {
-  filter: contrast(90%);
+  filter: contrast(95%);
 } /*  Fades window while not in focus */
 :root {
   --tabpanel-background-color: -moz-Dialog !important;
@@ -176,11 +176,11 @@
   background: none !important;
 }
 
-/* /*  Removes urlbar border/background  */
+/*  Removes urlbar border/background
 */
 /* #urlbar-background{border: none !important; outline: none !important; transition: .15s !important;} */
 
-/* /*  Cool animation on tab/bookmark icons  */ */
+/*  Cool animation on tab/bookmark icons  */
 /* .tabbrowser-tab:not([pinned]):not([selected]) .tab-icon-image ,.bookmark-item .toolbarbutton-icon{opacity: 0!important; transition: .15s !important; width: 0!important; padding-left: 16px!important} */
 /* .tabbrowser-tab:not([pinned]):hover .tab-icon-image,.bookmark-item:hover .toolbarbutton-icon{opacity: 100!important; transition: .15s !important; display: inline-block!important; width: 16px!important; padding-left: 0!important} */
 /* .tabbrowser-tab:not([hover]) .tab-icon-image,.bookmark-item:not([hover]) .toolbarbutton-icon{padding-left: 0!important} */
@@ -531,11 +531,11 @@ html.theme-dark
 .titlebar-buttonbox-container {
   margin-bottom: 0px;
 }
-#pageAction-urlbar-_testpilot-containers,
-#userContext-icons,
-#star-button-box {
-  display: none !important;
-}
+/* #pageAction-urlbar-_testpilot-containers, */
+/* #userContext-icons, */
+/* #star-button-box { */
+/*   display: none !important; */
+/* } */
 
 @-moz-document url(chrome://browser/content/browser.xhtml)
 {
@@ -556,4 +556,30 @@ html.theme-dark
   .titlebar-spacer {
     display: none !important;
   }
+
+  tabbrowser tabpanels { background-color: rgb(19,19,20) !important; }
+  browser { background-color: #131314 !important; }
+
+  /*Transition color while opening websites - disable if you like flashbangs */
+  #browser vbox#appcontent tabbrowser,
+  #content,
+  #tabbrowser-tabpanels,
+  browser[type="content-primary"],
+  browser[type="content"] > html {
+    /* change color to what u want */
+    background: #000000 !important;
+  }
+
+  #tabbrowser-tabpanels,
+  #webextpanels-window,
+  #webext-panels-stack,
+  #webext-panels-browser {
+    background: rgb(0,0,0) !important;
+  }
+
+  #browser vbox#appcontent tabbrowser, #content, #tabbrowser-tabpanels,
+  browser[type=content-primary],browser[type=content] > html {
+    background: #000000 !important
+  }
 }
+

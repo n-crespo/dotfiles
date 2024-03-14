@@ -296,11 +296,18 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 .changes__copy-all-changes-button:hover{background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important}
 
 
-
 /*  Accessability  */
 .accessibility-check{background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;}
 .right-sidebar{background: -moz-Dialog !important;}
 .checks .list > *{padding: 0 !important}}
 
-
-
+@-moz-document url-prefix(about:blank) {
+    html > body:empty {
+        background-color: rgb(19,19,20) !important;
+    }
+}
+@-moz-document url(about:blank) {
+    html > body:empty {
+        background-color: rgb(19,19,20) !important;
+    }
+}
