@@ -7,5 +7,6 @@
 	directory = /mnt/c/Users/nicol/.glaze-wm/
 	directory = /mnt/c/Users/nicol/.glaze-wm
 	directory = /mnt/c/Users/nicol/AppData/Roaming/alacritty
+	directory = /root/.config/kitty
 [core]
 	editor = nvim
