@@ -10,3 +10,5 @@
 	directory = /root/.config/kitty
 [core]
 	editor = nvim
+[init]
+	defaultBranch = main
