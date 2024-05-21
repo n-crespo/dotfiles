@@ -9,6 +9,6 @@
 	directory = /mnt/c/Users/nicol/AppData/Roaming/alacritty
 	directory = /root/.config/kitty
 [core]
-	editor = /home/linuxbrew/.linuxbrew/bin/nvim
+	editor = /usr/bin/nvim
 [init]
 	defaultBranch = main
