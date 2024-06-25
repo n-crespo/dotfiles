@@ -110,16 +110,6 @@ alias wopen='wsl-open'
 alias q='exit'
 alias pow='./mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe'
 
-#Autojump
-
-if [ -f "/usr/share/autojump/autojump.sh" ]; then
-	. /usr/share/autojump/autojump.sh
-elif [ -f "/usr/share/autojump/autojump.bash" ]; then
-	. /usr/share/autojump/autojump.bash
-else
-	echo "can't found the autojump script"
-fi
-
 # for some reasons these don't work correctly
 # export PATH=$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 export PATH=$PATH:/mnt/c/Windows/System32/WindowsPowerShell/v1.0
