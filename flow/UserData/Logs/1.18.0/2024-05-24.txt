@@ -1,0 +1,15 @@
+02:51:41.1177-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>

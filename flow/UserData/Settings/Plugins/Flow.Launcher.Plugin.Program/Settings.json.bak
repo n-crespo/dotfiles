@@ -1,0 +1,57 @@
+{
+  "LastIndexTime": "2024-07-17T08:43:40.1822882-04:00",
+  "ProgramSources": [
+    {
+      "Location": "C:\\Users\\nicol\\OneDrive\\Desktop\\Applications",
+      "Name": "Applications",
+      "Enabled": true,
+      "UniqueIdentifier": "c:\\users\\nicol\\onedrive\\desktop\\applications"
+    },
+    {
+      "Location": "C:\\Users\\nicol\\AppData\\Local\\Microsoft\\WinGet\\Links",
+      "Name": "Links",
+      "Enabled": true,
+      "UniqueIdentifier": "c:\\users\\nicol\\appdata\\local\\microsoft\\winget\\links"
+    },
+    {
+      "Location": "C:\\Users\\nicol\\pdf-viewer\\sioyek-release-windows",
+      "Name": "sioyek-release-windows",
+      "Enabled": true,
+      "UniqueIdentifier": "c:\\users\\nicol\\pdf-viewer\\sioyek-release-windows"
+    }
+  ],
+  "DisabledProgramSources": [
+    {
+      "Location": "C:\\Program Files\\WindowsApps\\19282JackieLiu.Notepads-Beta_1.5.5.0_x64__echhpq9pdbte8",
+      "Name": "Notepads",
+      "Enabled": false,
+      "UniqueIdentifier": "19282jackieliu.notepads-beta_echhpq9pdbte8!app"
+    },
+    {
+      "Location": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2402.22.0_x64__8wekyb3d8bbwe",
+      "Name": "Notepad",
+      "Enabled": false,
+      "UniqueIdentifier": "microsoft.windowsnotepad_8wekyb3d8bbwe!app"
+    }
+  ],
+  "CustomSuffixes": [],
+  "CustomProtocols": [],
+  "BuiltinSuffixesStatus": {
+    "exe": true,
+    "appref-ms": true,
+    "lnk": true
+  },
+  "BuiltinProtocolsStatus": {
+    "steam": true,
+    "epic": true,
+    "http": false
+  },
+  "UseCustomSuffixes": false,
+  "UseCustomProtocols": false,
+  "EnableStartMenuSource": true,
+  "EnableDescription": true,
+  "HideAppsPath": true,
+  "EnableRegistrySource": true,
+  "EnablePathSource": false,
+  "EnableUWP": true
+}

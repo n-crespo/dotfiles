@@ -1,0 +1,52 @@
+09:33:15.0006-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+09:33:15.0006-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+09:33:17.3849-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <40ms>
+09:33:17.3849-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <61ms>
+09:33:17.3849-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <38ms>
+09:33:17.4044-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <103ms>
+09:33:17.4171-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <126ms>
+09:33:17.4171-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <109ms>
+09:33:17.4311-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <152ms>
+09:33:17.4682-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <280ms>
+09:33:17.4931-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+09:33:17.4931-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Window Walker> is <190ms>
+09:33:17.5196-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <98ms>
+09:33:17.5196-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <267>
+09:33:17.5196-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <27>
+09:33:17.5599-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <174ms>
+09:33:17.5838-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <243ms>
+09:33:17.6052-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+09:33:17.6052-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+09:33:17.6052-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+09:33:17.6052-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <436ms>
+09:33:17.6214-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <239ms>
+09:33:17.6801-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <361ms>
+09:33:17.9328-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 165 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+09:33:17.9328-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <635ms>
+09:33:17.9666-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <645ms>
+09:33:18.3826-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+09:33:18.7176-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+09:33:18.7176-04:00 - INFO  - App.OnStartup - Startup cost <4266ms>
+09:33:19.6879-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+09:33:22.7328-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <5036ms>
+09:33:22.7328-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <149>, Images Number: 149, Unique Items 96

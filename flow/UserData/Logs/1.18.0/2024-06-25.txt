@@ -1,0 +1,55 @@
+19:46:33.0501-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+19:46:33.0501-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+19:46:36.6754-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <37ms>
+19:46:36.6754-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <61ms>
+19:46:36.6754-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <36ms>
+19:46:36.6931-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <96ms>
+19:46:36.7052-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <108ms>
+19:46:36.7052-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <98ms>
+19:46:36.7128-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <125ms>
+19:46:36.7519-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <265ms>
+19:46:36.7991-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <90ms>
+19:46:36.7991-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <257>
+19:46:36.7991-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <30>
+19:46:36.8090-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:46:36.8367-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <164ms>
+19:46:36.8590-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <225ms>
+19:46:36.8918-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <396ms>
+19:46:36.8918-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <222ms>
+19:46:36.9137-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:46:36.9137-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:46:36.9137-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+19:46:36.9485-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <330ms>
+19:46:37.0862-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <491ms>
+19:46:37.2252-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <611ms>
+19:46:37.6863-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+19:46:38.0500-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+19:46:38.0500-04:00 - INFO  - App.OnStartup - Startup cost <5668ms>
+19:46:38.3257-04:00 - ERROR - Updater.UpdateApp - Check your connection and proxy settings to github-cloud.s3.amazonaws.com.
+EXCEPTION OCCURS: System.Net.Http.HttpRequestException: No such host is known. (api.github.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async bool System.Net.Sockets.Socket.ConnectAsync(SocketAsyncEventArgs e)+WaitForConnectWithCancellation(?)
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   at async ValueTask<ValueTuple<Stream, TransportContext>> System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async ValueTask<HttpConnection> System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at async ValueTask<T> System.Threading.Tasks.TaskCompletionSourceWithCancellation<T>.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at async ValueTask<T> System.Net.Http.HttpConnectionPool+HttpConnectionWaiter<T>.WaitForConnectionAsync(bool async, CancellationToken requestCancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, bool async, bool doRequestAuth, CancellationToken cancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task<Stream> System.Net.Http.HttpClient.GetStreamAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at async Task<Stream> Flow.Launcher.Infrastructure.Http.Http.GetStreamAsync(Uri url, CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Http/Http.cs:line 161
+   at async Task<UpdateManager> Flow.Launcher.Core.Updater.GitHubUpdateManagerAsync(string repository) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 127
+   at async Task Flow.Launcher.Core.Updater.UpdateAppAsync(IPublicAPI api, bool silentUpdate) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 43
+
+19:46:45.5831-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <8632ms>
+19:46:45.5831-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <146>, Images Number: 146, Unique Items 88

@@ -1,0 +1,23 @@
+{
+  "runtimeOptions": {
+    "tfm": "net7.0",
+    "includedFrameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "7.0.17"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "7.0.17"
+      },
+      {
+        "name": "Microsoft.AspNetCore.App",
+        "version": "7.0.17"
+      }
+    ],
+    "configProperties": {
+      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true
+    }
+  }
+}

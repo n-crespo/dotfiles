@@ -1,0 +1,338 @@
+09:40:42.5694-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:40:42.5694-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+09:40:42.5694-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:40:42.5926-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:40:42.5926-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+09:40:42.5926-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:40:44.9696-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:40:44.9696-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+09:40:44.9696-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:40:45.0443-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:40:45.0443-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+09:40:45.0443-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+11:12:27.8825-04:00 - ERROR - Updater.UpdateApp - Check your connection and proxy settings to github-cloud.s3.amazonaws.com.
+EXCEPTION OCCURS: System.Net.Http.HttpRequestException: No such host is known. (api.github.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async bool System.Net.Sockets.Socket.ConnectAsync(SocketAsyncEventArgs e)+WaitForConnectWithCancellation(?)
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   at async ValueTask<ValueTuple<Stream, TransportContext>> System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async ValueTask<HttpConnection> System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at async ValueTask<T> System.Threading.Tasks.TaskCompletionSourceWithCancellation<T>.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at async ValueTask<T> System.Net.Http.HttpConnectionPool+HttpConnectionWaiter<T>.WaitForConnectionAsync(bool async, CancellationToken requestCancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, bool async, bool doRequestAuth, CancellationToken cancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task<Stream> System.Net.Http.HttpClient.GetStreamAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at async Task<Stream> Flow.Launcher.Infrastructure.Http.Http.GetStreamAsync(Uri url, CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Http/Http.cs:line 162
+   at async Task<UpdateManager> Flow.Launcher.Core.Updater.GitHubUpdateManagerAsync(string repository) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 127
+   at async Task Flow.Launcher.Core.Updater.UpdateAppAsync(IPublicAPI api, bool silentUpdate) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 43
+
+11:33:57.1472-04:00 - FATAL - UnHandledException - 
+## Exception
+
+```
+System.ComponentModel.Win32Exception: An error occurred trying to start process 'C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe' with working directory 'C:\Users\nicol\AppData\Roaming\FlowLauncher\Plugins\Unicode Finder-1.0.0'. The system cannot find the file specified.
+   Source: System.Diagnostics.Process
+   TargetAssembly: System.Diagnostics.Process, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+   TargetModule: System.Diagnostics.Process.dll
+   TargetSite: Boolean StartWithCreateProcess(System.Diagnostics.ProcessStartInfo)
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at Flow.Launcher.Core.Plugin.JsonRPCPlugin.ExecuteAsync(ProcessStartInfo startInfo, CancellationToken token) in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\JsonRPCPlugin.cs:line 196
+   at Flow.Launcher.Core.Plugin.JsonRPCPlugin.QueryAsync(Query query, CancellationToken token) in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\JsonRPCPlugin.cs:line 261
+   at Flow.Launcher.Core.Plugin.PluginManager.<>c__DisplayClass23_0.<<QueryForPluginAsync>b__0>d.MoveNext() in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\PluginManager.cs:line 196
+--- End of stack trace from previous location ---
+   at Flow.Launcher.Infrastructure.Stopwatch.DebugAsync(String message, Func`1 action) in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Stopwatch.cs:line 40
+   at Flow.Launcher.Core.Plugin.PluginManager.QueryForPluginAsync(PluginPair pair, Query query, CancellationToken token) in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\PluginManager.cs:line 230
+
+Flow.Launcher.Core.ExternalPlugins.FlowPluginException: An error occurred trying to start process 'C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe' with working directory 'C:\Users\nicol\AppData\Roaming\FlowLauncher\Plugins\Unicode Finder-1.0.0'. The system cannot find the file specified.
+   Source: Flow.Launcher.Core
+   TargetAssembly: Flow.Launcher.Core, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null
+   TargetModule: Flow.Launcher.Core.dll
+   TargetSite: Boolean <QueryForPluginAsync>b__1(Flow.Launcher.Plugin.ActionContext)
+   at Flow.Launcher.Core.Plugin.PluginManager.<>c__DisplayClass23_1.<QueryForPluginAsync>b__1(ActionContext _) in C:\projects\flow-launcher\Flow.Launcher.Core\Plugin\PluginManager.cs:line 224
+   at Flow.Launcher.ViewModel.MainViewModel.OpenResultAsync(String index) in C:\projects\flow-launcher\Flow.Launcher\ViewModel\MainViewModel.cs:line 312
+   at CommunityToolkit.Mvvm.Input.AsyncRelayCommand.AwaitAndThrowIfFailed(Task executionTask)
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+```
+
+## Environment
+* Command Line: C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Flow.Launcher.dll
+* Timestamp: 03/28/2024 11:33:57
+* Flow Launcher version: 1.17.2
+* OS Version: 22621.3296
+* IntPtr Length: 8
+* x64: True
+* Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+* Node Path: 
+* CLR Version: 7.0.14
+* Installed .NET Framework: 
+   * v4 Client 4.8.09032
+   * v4 Full 4.8.09032
+   * v4.0 Client 4.0.0.0
+
+## Assemblies - Flow.Launcher
+
+* System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Private.CoreLib.dll)
+* Flow.Launcher, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Flow.Launcher.dll)
+* PresentationFramework, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\PresentationFramework.dll)
+* WindowsBase, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\WindowsBase.dll)
+* System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.dll)
+* System.Xaml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Xaml.dll)
+* System.Threading, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Threading.dll)
+* System.IO.Pipes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.IO.Pipes.dll)
+* System.Security.AccessControl, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Security.AccessControl.dll)
+* System.Security.Principal.Windows, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Security.Principal.Windows.dll)
+* System.Runtime.InteropServices, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.InteropServices.dll)
+* System.Threading.ThreadPool, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Threading.ThreadPool.dll)
+* System.Configuration.ConfigurationManager, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Configuration.ConfigurationManager.dll)
+* System.ObjectModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.ObjectModel.dll)
+* Flow.Launcher.Core, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Flow.Launcher.Core.dll)
+* Flow.Launcher.Infrastructure, Version=1.17.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Flow.Launcher.Infrastructure.dll)
+* System.Collections, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Collections.dll)
+* System.ComponentModel.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.ComponentModel.Primitives.dll)
+* System.Private.Uri, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Private.Uri.dll)
+* PresentationCore, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\PresentationCore.dll)
+* System.Security.Cryptography, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Security.Cryptography.dll)
+* System.Collections.Concurrent, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Collections.Concurrent.dll)
+* System.Memory, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Memory.dll)
+* System.ComponentModel.TypeConverter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.ComponentModel.TypeConverter.dll)
+* System.Xml.ReaderWriter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Xml.ReaderWriter.dll)
+* System.Private.Xml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Private.Xml.dll)
+* System.Collections.Specialized, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Collections.Specialized.dll)
+* System.Net.WebClient, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.WebClient.dll)
+* System.ComponentModel.EventBasedAsync, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.ComponentModel.EventBasedAsync.dll)
+* System.Text.Encoding.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Text.Encoding.Extensions.dll)
+* System.Threading.Thread, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Threading.Thread.dll)
+* System.Runtime.Serialization.Formatters, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.Serialization.Formatters.dll)
+* System.Xml.XmlSerializer, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Xml.XmlSerializer.dll)
+* System.IO.Packaging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.IO.Packaging.dll)
+* DirectWriteForwarder, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\DirectWriteForwarder.dll)
+* System.Runtime.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.Extensions.dll)
+* System.Diagnostics.Debug, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Diagnostics.Debug.dll)
+* System.Runtime.CompilerServices.VisualC, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.CompilerServices.VisualC.dll)
+* Microsoft.Win32.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Win32.Primitives.dll)
+* System.Collections.NonGeneric, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Collections.NonGeneric.dll)
+* Microsoft.Win32.Registry, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Win32.Registry.dll)
+* System.Linq, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Linq.dll)
+* System.Diagnostics.TraceSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Diagnostics.TraceSource.dll)
+* System.Windows.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Windows.Extensions.dll)
+* System.ComponentModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.ComponentModel.dll)
+* ModernWpf, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\ModernWpf.dll)
+* System.Net.Requests, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Requests.dll)
+* System.Net.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Primitives.dll)
+* System.Net.WebHeaderCollection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.WebHeaderCollection.dll)
+* System.Runtime.Loader, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.Loader.dll)
+* Microsoft.Windows.SDK.NET, Version=10.0.19041.24, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Windows.SDK.NET.dll)
+* WinRT.Runtime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=99ea127f02d97709 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\WinRT.Runtime.dll)
+* Microsoft.Win32.SystemEvents, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Win32.SystemEvents.dll)
+* System.Runtime.CompilerServices.Unsafe, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.CompilerServices.Unsafe.dll)
+* System.Linq.Expressions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Linq.Expressions.dll)
+* System.Security.Cryptography.Algorithms, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Security.Cryptography.Algorithms.dll)
+* System.Numerics.Vectors, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Numerics.Vectors.dll)
+* System.Reflection.Emit, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Reflection.Emit.dll)
+* Snippets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (dynamic assembly doesn't has location)
+* UIAutomationTypes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\UIAutomationTypes.dll)
+* System.Diagnostics.Process, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Diagnostics.Process.dll)
+* PresentationFramework.Aero2, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\PresentationFramework.Aero2.dll)
+* ModernWpf.Controls, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\ModernWpf.Controls.dll)
+* mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\mscorlib.dll)
+* Flow.Launcher.Plugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Flow.Launcher.Plugin.dll)
+* System.Text.Encoding.CodePages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Text.Encoding.CodePages.dll)
+* System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Text.Json.dll)
+* NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\NLog.dll)
+* netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\netstandard.dll)
+* System.Diagnostics.FileVersionInfo, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Diagnostics.FileVersionInfo.dll)
+* System.IO.FileSystem.Watcher, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.IO.FileSystem.Watcher.dll)
+* System.Data.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Data.Common.dll)
+* System.Net.Mail, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Mail.dll)
+* System.Net.Sockets, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Sockets.dll)
+* NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\NLog.Extensions.Logging.dll)
+* Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Extensions.Logging.Abstractions.dll)
+* Microsoft.Extensions.Logging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Extensions.Logging.dll)
+* NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\NLog.Web.AspNetCore.dll)
+* MemoryPack.Core, Version=1.10.0.0, Culture=neutral, PublicKeyToken=df4c250b14d82627 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\MemoryPack.Core.dll)
+* System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Collections.Immutable.dll)
+* System.Text.Encodings.Web, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Text.Encodings.Web.dll)
+* System.Runtime.Numerics, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.Numerics.dll)
+* System.Reflection.Emit.Lightweight, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Reflection.Emit.Lightweight.dll)
+* System.Reflection.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Reflection.Primitives.dll)
+* System.Reflection.Emit.ILGeneration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Reflection.Emit.ILGeneration.dll)
+* System.Runtime.Intrinsics, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.Intrinsics.dll)
+* System.Drawing.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Drawing.Common.dll)
+* Flow.Launcher.Plugin.BrowserBookmark, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.BrowserBookmark\Flow.Launcher.Plugin.BrowserBookmark.dll)
+* Flow.Launcher.Plugin.Caculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Caculator\Flow.Launcher.Plugin.Caculator.dll)
+* Flow.Launcher.Plugin.Explorer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Explorer\Flow.Launcher.Plugin.Explorer.dll)
+* System.Windows.Forms, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Windows.Forms.dll)
+* System.Windows.Forms.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Windows.Forms.Primitives.dll)
+* Flow.Launcher.Plugin.PluginIndicator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.PluginIndicator\Flow.Launcher.Plugin.PluginIndicator.dll)
+* Flow.Launcher.Plugin.PluginsManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.PluginsManager\Flow.Launcher.Plugin.PluginsManager.dll)
+* Flow.Launcher.Plugin.ProcessKiller, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.ProcessKiller\Flow.Launcher.Plugin.ProcessKiller.dll)
+* Flow.Launcher.Plugin.Program, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Program\Flow.Launcher.Plugin.Program.dll)
+* Microsoft.Extensions.Caching.Memory, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Extensions.Caching.Memory.dll)
+* Microsoft.Extensions.Options, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Extensions.Options.dll)
+* Microsoft.Extensions.Caching.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Extensions.Caching.Abstractions.dll)
+* Microsoft.Extensions.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.Extensions.Primitives.dll)
+* Flow.Launcher.Plugin.Shell, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Shell\Flow.Launcher.Plugin.Shell.dll)
+* WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\WindowsInput.dll)
+* Flow.Launcher.Plugin.Sys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Sys\Flow.Launcher.Plugin.Sys.dll)
+* Flow.Launcher.Plugin.Url, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Url\Flow.Launcher.Plugin.Url.dll)
+* System.Text.RegularExpressions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Text.RegularExpressions.dll)
+* Flow.Launcher.Plugin.WebSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.WebSearch\Flow.Launcher.Plugin.WebSearch.dll)
+* Flow.Launcher.Plugin.WindowsSettings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.WindowsSettings\Flow.Launcher.Plugin.WindowsSettings.dll)
+* Flow.Launcher.Plugin.ClipboardHistory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Roaming\FlowLauncher\Plugins\Clipboard History-1.1.1\Flow.Launcher.Plugin.ClipboardHistory.dll)
+* WindowsInput, Version=1.0.5.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad (C:\Users\nicol\AppData\Roaming\FlowLauncher\Plugins\Clipboard History-1.1.1\WindowsInput.dll)
+* CommunityToolkit.Mvvm, Version=8.2.0.0, Culture=neutral, PublicKeyToken=4aff67a105548ee2 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\CommunityToolkit.Mvvm.dll)
+* System.Threading.Channels, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Threading.Channels.dll)
+* System.Net.Http, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Http.dll)
+* System.Net.WebProxy, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.WebProxy.dll)
+* System.Net.ServicePoint, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.ServicePoint.dll)
+* System.Net.Security, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Security.dll)
+* System.Diagnostics.Tracing, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Diagnostics.Tracing.dll)
+* System.Diagnostics.DiagnosticSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Diagnostics.DiagnosticSource.dll)
+* System.Drawing.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Drawing.Primitives.dll)
+* Mages.Core, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Caculator\Mages.Core.dll)
+* YamlDotNet, Version=9.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\YamlDotNet.dll)
+* System.Net.Http.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Http.Json.dll)
+* System.Net.Quic, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.Quic.dll)
+* Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Accessibility.dll)
+* System.Threading.Overlapped, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Threading.Overlapped.dll)
+* System.Net.NameResolution, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.NameResolution.dll)
+* Microsoft.Data.Sqlite, Version=8.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.BrowserBookmark\Microsoft.Data.Sqlite.dll)
+* System.Runtime.InteropServices.RuntimeInformation, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.InteropServices.RuntimeInformation.dll)
+* SQLitePCLRaw.core, Version=2.1.6.2060, Culture=neutral, PublicKeyToken=1488e028ca7ab535 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.BrowserBookmark\SQLitePCLRaw.core.dll)
+* SQLitePCLRaw.batteries_v2, Version=2.1.6.2060, Culture=neutral, PublicKeyToken=8226ea5df37bcae9 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.BrowserBookmark\SQLitePCLRaw.batteries_v2.dll)
+* SQLitePCLRaw.provider.e_sqlite3, Version=2.1.6.2060, Culture=neutral, PublicKeyToken=9c301db686d0bd12 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.BrowserBookmark\SQLitePCLRaw.provider.e_sqlite3.dll)
+* System.Security.Claims, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Security.Claims.dll)
+* System.Net.NetworkInformation, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Net.NetworkInformation.dll)
+* UIAutomationProvider, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\UIAutomationProvider.dll)
+* NHotkey.Wpf, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a76ffb086700b11c (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\NHotkey.Wpf.dll)
+* System.Windows.Controls.Ribbon, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Windows.Controls.Ribbon.dll)
+* WindowsFormsIntegration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\WindowsFormsIntegration.dll)
+* PresentationFramework-SystemData, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\PresentationFramework-SystemData.dll)
+* NHotkey, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a76ffb086700b11c (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\NHotkey.dll)
+* Squirrel, Version=1.5.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Squirrel.dll)
+* Splat, Version=1.6.2.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Splat.dll)
+* NuGet.Squirrel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\NuGet.Squirrel.dll)
+* System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.dll)
+* System.Resources.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Resources.Extensions.dll)
+* System.Drawing, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Drawing.dll)
+* System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Core.dll)
+* System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Web.dll)
+* System.Web.HttpUtility, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Web.HttpUtility.dll)
+* System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.Serialization.dll)
+* System.Runtime.Serialization.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Runtime.Serialization.Primitives.dll)
+* System.Diagnostics.StackTrace, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Diagnostics.StackTrace.dll)
+* Microsoft.VisualStudio.Threading, Version=17.7.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.VisualStudio.Threading.dll)
+* Microsoft.VisualStudio.Validation, Version=17.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.VisualStudio.Validation.dll)
+* System.Linq.Parallel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Linq.Parallel.dll)
+* ToolGood.Words.Pinyin, Version=3.0.1.4, Culture=neutral, PublicKeyToken=d330f4fd115e6143 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\ToolGood.Words.Pinyin.dll)
+* PresentationFramework-SystemXml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\PresentationFramework-SystemXml.dll)
+* Ben.Demystifier, Version=0.4.0.0, Culture=neutral, PublicKeyToken=a6d206e05440431a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Ben.Demystifier.dll)
+* System.Reflection.Metadata, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.Reflection.Metadata.dll)
+* System.IO.MemoryMappedFiles, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\System.IO.MemoryMappedFiles.dll)
+* INIFileParser, Version=2.5.2.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Plugins\Flow.Launcher.Plugin.Program\INIFileParser.dll)
+* Microsoft.IO.RecyclableMemoryStream, Version=2.3.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\Users\nicol\AppData\Local\FlowLauncher\app-1.17.2\Microsoft.IO.RecyclableMemoryStream.dll)
+
+12:17:57.7954-05:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:17:57.7954-05:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 22621.3296
+IntPtr Length: 8
+x64: True
+12:18:03.2208-05:00 - INFO  - ImageLoader.Initialize - Preload images cost <2472ms>
+12:18:03.2208-05:00 - INFO  - ImageLoader.Initialize - Number of preload images is <59>, Images Number: 59, Unique Items 27
+12:20:37.6250-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <73ms>
+12:20:37.6250-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <126ms>
+12:20:37.6250-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <65ms>
+12:20:37.6502-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <113ms>
+12:20:37.7084-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <319ms>
+12:20:37.7167-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <247ms>
+12:20:37.7229-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <216ms>
+12:20:37.7402-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <51ms>
+12:20:37.7402-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <287>
+12:20:37.7402-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <27>
+12:20:37.8106-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <376ms>
+12:20:37.8106-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:20:37.8106-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <308ms>
+12:20:37.8240-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:20:37.8240-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:20:37.8240-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:20:37.8716-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <221ms>
+12:20:37.8888-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <452ms>
+12:20:37.8888-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <346ms>
+12:20:37.9914-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <358ms>
+12:20:38.4269-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <916ms>
+12:20:40.5216-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 155 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:20:40.5382-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <3063ms>
+12:20:41.2082-05:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+12:20:41.7931-05:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:20:41.7950-05:00 - INFO  - App.OnStartup - Startup cost <164672ms>
+12:20:56.5206-05:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+19:29:17.9534-05:00 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.

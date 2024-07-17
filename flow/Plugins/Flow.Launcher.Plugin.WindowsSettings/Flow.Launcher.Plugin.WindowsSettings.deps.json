@@ -1,0 +1,154 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Flow.Launcher.Plugin.WindowsSettings/1.0.0": {
+        "dependencies": {
+          "Flow.Launcher.Plugin": "4.3.0"
+        },
+        "runtime": {
+          "Flow.Launcher.Plugin.WindowsSettings.dll": {}
+        },
+        "resources": {
+          "ar-SA/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "ar-SA"
+          },
+          "cs-CZ/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "cs/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "cs"
+          },
+          "da-DK/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "da-DK"
+          },
+          "de-DE/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "de-DE"
+          },
+          "de/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "de"
+          },
+          "es-419/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "es-419"
+          },
+          "es/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "es"
+          },
+          "fr-FR/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "fr/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "fr"
+          },
+          "hu/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "hu"
+          },
+          "it-IT/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "it-IT"
+          },
+          "it/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "it"
+          },
+          "ja-JP/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "ja/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "ja"
+          },
+          "ko-KR/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "ko/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "ko"
+          },
+          "nb-NO/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "nb-NO"
+          },
+          "nl-NL/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "pl-PL/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "pl/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "pt-PT/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "ru-RU/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "ru/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "ru"
+          },
+          "sk-SK/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "sk-SK"
+          },
+          "sv/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "sv"
+          },
+          "tr-TR/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "tr/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "tr"
+          },
+          "uk-UA/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "uk-UA"
+          },
+          "zh-cn/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "zh-TW/Flow.Launcher.Plugin.WindowsSettings.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "JetBrains.Annotations/2023.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "4242.42.42.42",
+            "fileVersion": "2023.3.0.0"
+          }
+        }
+      },
+      "PropertyChanged.Fody/3.4.0": {
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.4.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flow.Launcher.Plugin.WindowsSettings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JetBrains.Annotations/2023.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PHfnvdBUdGaTVG9bR/GEfxgTwWM0Z97Y6X3710wiljELBISipSfF5okn/vz+C2gfO+ihoEyVPjaJwn8ZalVukA==",
+      "path": "jetbrains.annotations/2023.3.0",
+      "hashPath": "jetbrains.annotations.2023.3.0.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IAZyq0uolKo2WYm4mjx+q7A8fSGFT0x2e1s3y+ODn4JI0kqTDoo9GF2tdaypUzRFJZfdMxfC5HZW9QzdJLtOnA==",
+      "path": "propertychanged.fody/3.4.0",
+      "hashPath": "propertychanged.fody.3.4.0.nupkg.sha512"
+    }
+  }
+}

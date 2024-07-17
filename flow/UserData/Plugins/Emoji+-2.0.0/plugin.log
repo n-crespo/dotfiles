@@ -1,0 +1,19 @@
+13:23:46 ERROR (launcher.py): expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\nicol\AppData\Roaming\FlowLauncher\Plugins\Emoji+-2.0.0\lib\flox\launcher.py", line 44, in run
+    results = request_method(*request_parameters) or self._results
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Roaming\FlowLauncher\Plugins\Emoji+-2.0.0\plugin\emoji.py", line 104, in type_char
+    python_setting = Path(self.app_settings["PluginSettings"].get("PythonDirectory"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 871, in __new__
+    self = cls._from_parts(args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 509, in _from_parts
+    drv, root, parts = self._parse_args(args)
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nicol\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 493, in _parse_args
+    a = os.fspath(a)
+        ^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+13:40:03 WARNING (utils.py): Unable to read cache file: C:\Users\nicol\AppData\Local\Temp\emoji.json

@@ -1,0 +1,62 @@
+18:57:50.2623-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+23:43:41.2363-04:00 - ERROR - ImageLoader.Load - Failed to get thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png on first try
+EXCEPTION OCCURS: System.Runtime.InteropServices.COMException (0x80004005): Error while extracting thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png
+ ---> System.Runtime.InteropServices.COMException (0x8004B205): 0x8004B205
+   at IntPtr Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetHBitmap(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 129
+   at BitmapSource Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetThumbnail(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 120
+   at ImageResult Flow.Launcher.Infrastructure.Image.ImageLoader.GetThumbnailResult(ref string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 247
+   at async ValueTask<ImageResult> Flow.Launcher.Infrastructure.Image.ImageLoader.LoadInternalAsync(string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 169
+
+23:43:41.2363-04:00 - ERROR - ImageLoader.Load - Failed to get thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png on second try
+EXCEPTION OCCURS: System.Runtime.InteropServices.COMException (0x80004005): Error while extracting thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png
+ ---> System.Runtime.InteropServices.COMException (0x8004B205): 0x8004B205
+   at IntPtr Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetHBitmap(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 129
+   at BitmapSource Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetThumbnail(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 120
+   at ImageResult Flow.Launcher.Infrastructure.Image.ImageLoader.GetThumbnailResult(ref string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 247
+   at async ValueTask<ImageResult> Flow.Launcher.Infrastructure.Image.ImageLoader.LoadInternalAsync(string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 169
+
+23:43:41.2749-04:00 - ERROR - ImageLoader.Load - Failed to get thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png on first try
+EXCEPTION OCCURS: System.Runtime.InteropServices.COMException (0x80004005): Error while extracting thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png
+ ---> System.Runtime.InteropServices.COMException (0x8004B205): 0x8004B205
+   at IntPtr Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetHBitmap(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 129
+   at BitmapSource Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetThumbnail(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 120
+   at ImageResult Flow.Launcher.Infrastructure.Image.ImageLoader.GetThumbnailResult(ref string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 247
+   at async ValueTask<ImageResult> Flow.Launcher.Infrastructure.Image.ImageLoader.LoadInternalAsync(string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 169
+
+23:43:41.2752-04:00 - ERROR - ImageLoader.Load - Failed to get thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png on second try
+EXCEPTION OCCURS: System.Runtime.InteropServices.COMException (0x80004005): Error while extracting thumbnail for C:\Users\nicol\OneDrive\Eleventh_Grade\act.png
+ ---> System.Runtime.InteropServices.COMException (0x8004B205): 0x8004B205
+   at IntPtr Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetHBitmap(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 129
+   at BitmapSource Flow.Launcher.Infrastructure.Image.WindowsThumbnailProvider.GetThumbnail(string fileName, int width, int height, ThumbnailOptions options) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ThumbnailReader.cs:line 120
+   at ImageResult Flow.Launcher.Infrastructure.Image.ImageLoader.GetThumbnailResult(ref string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 247
+   at async ValueTask<ImageResult> Flow.Launcher.Infrastructure.Image.ImageLoader.LoadInternalAsync(string path, bool loadFullImage) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Image/ImageLoader.cs:line 169
+
+23:57:50.1798-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>

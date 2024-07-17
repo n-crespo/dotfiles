@@ -1,0 +1,2523 @@
+01:03:13.7436-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:31:53.4557-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+03:31:53.4557-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+03:31:55.5674-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <34ms>
+03:31:55.5674-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <37ms>
+03:31:55.5674-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <63ms>
+03:31:55.5674-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <86ms>
+03:31:55.5949-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <124ms>
+03:31:55.5949-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <98ms>
+03:31:55.6028-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <124ms>
+03:31:55.6383-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <279ms>
+03:31:55.6591-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:31:55.6842-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <86ms>
+03:31:55.6842-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <276>
+03:31:55.6842-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+03:31:55.6842-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <311ms>
+03:31:55.7197-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <154ms>
+03:31:55.7384-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <222ms>
+03:31:55.7506-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:31:55.7506-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:31:55.7506-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:31:55.7684-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <203ms>
+03:31:55.8662-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <355ms>
+03:31:56.0816-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <575ms>
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.3678-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:31:56.3678-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.5718-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:31:56.5923-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <1109ms>
+03:31:56.6280-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.6280-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+03:31:56.6280-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.6495-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:56.6495-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+03:31:56.6495-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:56.7125-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <1026ms>
+03:31:56.9844-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+03:31:57.3053-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+03:31:57.3249-04:00 - INFO  - App.OnStartup - Startup cost <4418ms>
+03:31:58.4081-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:31:58.5174-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:58.5174-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:31:58.5174-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:58.5968-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:31:58.5968-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:31:58.5968-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:31:59.7465-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <3869ms>
+03:31:59.7465-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 100
+03:32:01.2594-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <5573ms>
+03:36:55.3725-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+03:36:55.3725-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+03:36:57.3290-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <30ms>
+03:36:57.3290-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <55ms>
+03:36:57.3290-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <33ms>
+03:36:57.3445-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <86ms>
+03:36:57.3552-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <99ms>
+03:36:57.3552-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <92ms>
+03:36:57.3552-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <114ms>
+03:36:57.4009-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <249ms>
+03:36:57.4221-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:57.4489-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <92ms>
+03:36:57.4489-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <276>
+03:36:57.4489-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+03:36:57.4793-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <309ms>
+03:36:57.4870-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <160ms>
+03:36:57.4943-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <203ms>
+03:36:57.5169-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:57.5169-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:57.5169-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:36:57.5290-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <202ms>
+03:36:57.5895-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <313ms>
+03:36:57.8284-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:57.8284-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <579ms>
+03:36:57.8450-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <574ms>
+03:36:58.3074-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+03:36:58.6622-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+03:36:58.6622-04:00 - INFO  - App.OnStartup - Startup cost <3828ms>
+03:36:59.5145-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:37:02.5044-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4900ms>
+03:37:02.5044-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <149>, Images Number: 149, Unique Items 96
+03:54:04.5415-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+03:54:04.5415-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+03:54:05.0112-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <46ms>
+03:54:05.0112-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <7ms>
+03:54:05.0112-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <7ms>
+03:54:05.0112-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <31ms>
+03:54:05.0112-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <43ms>
+03:54:05.0112-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:54:05.0112-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <51ms>
+03:54:05.0313-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <55ms>
+03:54:05.0313-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <58ms>
+03:54:05.0313-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <62ms>
+03:54:05.0508-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <20ms>
+03:54:05.0655-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <276>
+03:54:05.0655-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <91ms>
+03:54:05.0655-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+03:54:05.0883-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:54:05.0883-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:54:05.0883-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:54:05.1199-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <149ms>
+03:54:05.1199-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <156ms>
+03:54:05.1199-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <147ms>
+03:54:05.1813-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <212ms>
+03:54:05.2601-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:54:05.2777-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <304ms>
+03:54:05.8161-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+03:54:06.2192-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+03:54:06.2192-04:00 - INFO  - App.OnStartup - Startup cost <1844ms>
+03:54:06.9214-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:54:08.5689-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <3491ms>
+03:54:08.5689-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <148>, Images Number: 148, Unique Items 96
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:54:09.3357-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+03:54:09.3357-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:08.3654-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+04:01:08.3654-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+04:01:09.0826-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <4ms>
+04:01:09.0826-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+04:01:09.0826-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+04:01:09.0826-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <28ms>
+04:01:09.1074-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <31ms>
+04:01:09.1107-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:01:09.1107-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <41ms>
+04:01:09.1107-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <43ms>
+04:01:09.1107-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <41ms>
+04:01:09.1275-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <49ms>
+04:01:09.1444-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <68ms>
+04:01:09.1444-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <22ms>
+04:01:09.1444-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <276>
+04:01:09.1444-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+04:01:09.1690-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:01:09.1690-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:01:09.1690-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+04:01:09.1934-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <121ms>
+04:01:09.1934-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <122ms>
+04:01:09.2067-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <128ms>
+04:01:09.2486-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <173ms>
+04:01:09.3203-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:01:09.3203-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <250ms>
+04:01:09.7490-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+04:01:10.0261-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+04:01:10.0261-04:00 - INFO  - App.OnStartup - Startup cost <1790ms>
+04:01:10.7862-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+04:01:12.8362-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8362-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8362-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8362-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8362-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8362-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8362-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8362-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8362-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8362-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8362-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8362-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:01:12.8378-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:01:12.8378-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:01:13.0846-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <3923ms>
+04:01:13.0846-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <145>, Images Number: 145, Unique Items 95
+04:06:21.0567-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+04:06:21.0567-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+04:06:21.7673-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+04:06:21.7673-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+04:06:21.7673-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <15ms>
+04:06:21.7673-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+04:06:21.7883-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <25ms>
+04:06:21.7883-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:06:21.7883-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <37ms>
+04:06:21.7883-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <36ms>
+04:06:21.7883-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <38ms>
+04:06:21.8092-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <47ms>
+04:06:21.8294-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <67ms>
+04:06:21.8294-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <25ms>
+04:06:21.8294-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <276>
+04:06:21.8294-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+04:06:21.8450-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:06:21.8450-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:06:21.8450-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+04:06:21.8677-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <110ms>
+04:06:21.8677-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <109ms>
+04:06:21.8677-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <112ms>
+04:06:21.9079-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <148ms>
+04:06:21.9775-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:06:21.9775-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <219ms>
+04:06:22.3134-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+04:06:22.5516-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+04:06:22.5516-04:00 - INFO  - App.OnStartup - Startup cost <1598ms>
+04:06:23.6286-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+04:06:25.7689-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <3914ms>
+04:06:25.7689-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <146>, Images Number: 146, Unique Items 96
+04:46:36.7260-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+04:46:36.7260-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+04:46:37.2484-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <4ms>
+04:46:37.2484-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <4ms>
+04:46:37.2484-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <4ms>
+04:46:37.2642-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <32ms>
+04:46:37.2714-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <28ms>
+04:46:37.2714-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:46:37.2714-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <40ms>
+04:46:37.2846-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <40ms>
+04:46:37.2846-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <42ms>
+04:46:37.2846-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <49ms>
+04:46:37.3137-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <70ms>
+04:46:37.3137-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <24ms>
+04:46:37.3137-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <276>
+04:46:37.3137-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+04:46:37.3347-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:46:37.3347-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:46:37.3347-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+04:46:37.3588-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <118ms>
+04:46:37.3588-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <121ms>
+04:46:37.3700-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <125ms>
+04:46:37.4106-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <169ms>
+04:46:37.4904-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:46:37.4904-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <250ms>
+04:46:37.9204-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+04:46:38.1786-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+04:46:38.1821-04:00 - INFO  - App.OnStartup - Startup cost <1538ms>
+04:46:39.2002-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+04:46:40.9506-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <3624ms>
+04:46:40.9506-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <149>, Images Number: 149, Unique Items 97
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+04:46:41.0965-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+04:46:41.0965-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:20:18.6548-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:20:18.6548-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+05:20:18.6548-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:20:18.6756-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:20:18.6756-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+05:20:18.6756-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:20:20.4979-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:20:20.4979-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+05:20:20.4979-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:20:20.5897-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:20:20.5897-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+05:20:20.5897-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:38:39.4516-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:38:39.4516-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+05:38:39.4516-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:38:39.4516-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:38:39.4516-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+05:38:39.4516-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:38:39.8052-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:38:39.8052-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+05:38:39.8052-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:38:39.8264-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:38:39.8264-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+05:38:39.8264-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:46:50.1387-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+05:46:50.1387-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+05:46:50.6834-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <16ms>
+05:46:50.6834-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <4ms>
+05:46:50.6834-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+05:46:50.6834-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+05:46:50.6834-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <27ms>
+05:46:50.6834-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:46:50.7020-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <38ms>
+05:46:50.7020-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <38ms>
+05:46:50.7020-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <39ms>
+05:46:50.7126-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <48ms>
+05:46:50.7281-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <20ms>
+05:46:50.7281-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <64ms>
+05:46:50.7281-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+05:46:50.7281-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+05:46:50.7281-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:46:50.7427-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:46:50.7427-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+05:46:50.7685-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <106ms>
+05:46:50.7685-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <110ms>
+05:46:50.7768-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <110ms>
+05:46:50.8279-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <166ms>
+05:46:50.8738-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:46:50.8738-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <215ms>
+05:46:51.1323-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+05:46:51.4372-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+05:46:51.4372-04:00 - INFO  - App.OnStartup - Startup cost <1427ms>
+05:46:52.1248-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+05:46:54.6095-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <3870ms>
+05:46:54.6095-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <145>, Images Number: 145, Unique Items 99
+05:55:59.2954-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+05:55:59.2954-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+05:55:59.8192-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <4ms>
+05:55:59.8192-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+05:55:59.8192-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+05:55:59.8192-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <36ms>
+05:55:59.8274-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <27ms>
+05:55:59.8274-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:55:59.8387-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <39ms>
+05:55:59.8387-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <38ms>
+05:55:59.8387-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <41ms>
+05:55:59.8387-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <48ms>
+05:55:59.8669-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <66ms>
+05:55:59.8669-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <22ms>
+05:55:59.8669-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+05:55:59.8669-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+05:55:59.8871-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:55:59.8871-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:55:59.8871-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+05:55:59.9102-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <112ms>
+05:55:59.9102-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <116ms>
+05:55:59.9234-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <121ms>
+05:55:59.9669-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <168ms>
+05:56:00.0299-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:56:00.0299-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:56:00.0299-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <235ms>
+05:56:00.4012-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+05:56:00.6491-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+05:56:00.6491-04:00 - INFO  - App.OnStartup - Startup cost <1438ms>
+05:56:01.4215-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+05:56:03.4637-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+05:56:03.4637-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+05:56:04.6541-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4777ms>
+05:56:04.6563-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <146>, Images Number: 146, Unique Items 99
+06:05:45.9466-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+06:05:45.9466-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+06:05:46.4027-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+06:05:46.4027-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <14ms>
+06:05:46.4027-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+06:05:46.4027-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+06:05:46.4027-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <27ms>
+06:05:46.4027-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:05:46.4182-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <34ms>
+06:05:46.4182-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <36ms>
+06:05:46.4182-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <35ms>
+06:05:46.4182-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <44ms>
+06:05:46.4443-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <60ms>
+06:05:46.4443-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <20ms>
+06:05:46.4443-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+06:05:46.4443-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+06:05:46.4599-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:05:46.4599-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:05:46.4599-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+06:05:46.4805-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <101ms>
+06:05:46.4805-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <100ms>
+06:05:46.4805-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <105ms>
+06:05:46.5291-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <147ms>
+06:05:46.6067-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+06:05:46.6228-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <239ms>
+06:05:47.1714-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+06:05:47.6732-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+06:05:47.6732-04:00 - INFO  - App.OnStartup - Startup cost <1827ms>
+06:05:48.7934-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+06:05:51.1726-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4706ms>
+06:05:51.1726-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 101
+06:31:04.9826-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+06:31:04.9826-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+06:31:05.5680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <16ms>
+06:31:05.5680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+06:31:05.5680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+06:31:05.5680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <4ms>
+06:31:05.5759-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <29ms>
+06:31:05.5759-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:31:05.5759-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <40ms>
+06:31:05.5759-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <40ms>
+06:31:05.5759-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <40ms>
+06:31:05.5975-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <51ms>
+06:31:05.6115-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <64ms>
+06:31:05.6115-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <20ms>
+06:31:05.6115-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+06:31:05.6115-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+06:31:05.6301-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:31:05.6301-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:31:05.6301-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+06:31:05.6507-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <110ms>
+06:31:05.6507-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <106ms>
+06:31:05.6584-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <110ms>
+06:31:05.6958-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <151ms>
+06:31:05.7639-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:31:05.7672-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <220ms>
+06:31:06.0692-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+06:31:06.4857-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+06:31:06.4950-04:00 - INFO  - App.OnStartup - Startup cost <1616ms>
+06:31:07.4424-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+06:31:10.0246-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4401ms>
+06:31:10.0246-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <145>, Images Number: 145, Unique Items 99
+06:58:11.3552-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+06:58:11.3581-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+06:58:11.9044-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <18ms>
+06:58:11.9044-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+06:58:11.9044-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+06:58:11.9044-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+06:58:11.9128-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <27ms>
+06:58:11.9128-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:58:11.9231-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <37ms>
+06:58:11.9231-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <40ms>
+06:58:11.9231-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <40ms>
+06:58:11.9231-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <49ms>
+06:58:11.9520-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <22ms>
+06:58:11.9520-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <67ms>
+06:58:11.9520-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+06:58:11.9520-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+06:58:11.9686-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:58:11.9695-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:58:11.9695-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+06:58:11.9949-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <116ms>
+06:58:11.9949-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <114ms>
+06:58:12.0066-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <120ms>
+06:58:12.0484-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <166ms>
+06:58:12.1363-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:58:12.1363-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+06:58:12.1431-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <258ms>
+06:58:12.9288-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+06:58:13.2231-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+06:58:13.2273-04:00 - INFO  - App.OnStartup - Startup cost <1959ms>
+06:58:14.0715-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+06:58:15.7202-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+06:58:15.7202-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+06:58:16.4325-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4468ms>
+06:58:16.4325-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <145>, Images Number: 145, Unique Items 99
+07:08:22.0759-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+07:08:22.0781-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+07:08:24.1542-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <56ms>
+07:08:24.1542-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <39ms>
+07:08:24.1542-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <32ms>
+07:08:24.1692-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <87ms>
+07:08:24.1692-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <101ms>
+07:08:24.1692-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <92ms>
+07:08:24.1909-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <127ms>
+07:08:24.2237-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <252ms>
+07:08:24.2447-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+07:08:24.2672-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <83ms>
+07:08:24.2672-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+07:08:24.2672-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+07:08:24.3082-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <156ms>
+07:08:24.3272-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <211ms>
+07:08:24.3425-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+07:08:24.3425-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+07:08:24.3425-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+07:08:24.3425-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <364ms>
+07:08:24.3589-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <207ms>
+07:08:24.4179-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <319ms>
+07:08:24.6642-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+07:08:24.6642-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+07:08:24.6680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <593ms>
+07:08:24.6680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <585ms>
+07:08:25.1254-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+07:08:25.4852-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+07:08:25.4977-04:00 - INFO  - App.OnStartup - Startup cost <4167ms>
+07:08:26.5687-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+07:08:28.5376-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4108ms>
+07:08:28.5376-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <148>, Images Number: 148, Unique Items 103
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.3484-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:16:07.3484-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.5575-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <565ms>
+07:16:07.7652-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.7652-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+07:16:07.7652-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:07.7801-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:07.7801-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+07:16:07.7801-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:09.1720-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:09.1720-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+07:16:09.1720-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:09.2577-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:16:09.2577-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+07:16:09.2577-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:16:12.0076-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <5015ms>
+12:44:04.7758-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:44:04.7758-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+12:44:08.5849-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <80ms>
+12:44:08.5849-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <48ms>
+12:44:08.5849-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <34ms>
+12:44:08.6053-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <99ms>
+12:44:08.6167-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <130ms>
+12:44:08.6167-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <103ms>
+12:44:08.6167-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <125ms>
+12:44:08.6727-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <281ms>
+12:44:08.6949-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:44:08.7175-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <95ms>
+12:44:08.7175-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+12:44:08.7175-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+12:44:08.7556-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <174ms>
+12:44:08.7746-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <230ms>
+12:44:08.7894-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:44:08.7894-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:44:08.7894-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:44:08.7894-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <449ms>
+12:44:08.8067-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <225ms>
+12:44:08.8635-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <337ms>
+12:44:09.1118-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <589ms>
+12:44:09.1309-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:44:09.1309-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:44:09.1309-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <647ms>
+12:44:09.5380-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+12:44:09.8877-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:44:09.8877-04:00 - INFO  - App.OnStartup - Startup cost <5738ms>
+12:44:10.7837-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+12:44:13.9661-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <5083ms>
+12:44:13.9661-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 102
+12:59:55.9745-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:59:55.9779-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+12:59:56.4827-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <4ms>
+12:59:56.4827-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <2ms>
+12:59:56.4827-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <1ms>
+12:59:56.4827-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <17ms>
+12:59:56.5223-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.5223-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <15ms>
+12:59:56.5223-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <40ms>
+12:59:56.5223-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <43ms>
+12:59:56.5338-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <55ms>
+12:59:56.5338-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <24ms>
+12:59:56.5520-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <23ms>
+12:59:56.5520-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+12:59:56.5520-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+12:59:56.5520-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <69ms>
+12:59:56.5742-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.5742-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.5742-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+12:59:56.5894-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <117ms>
+12:59:56.5894-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <116ms>
+12:59:56.6262-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <114ms>
+12:59:56.7156-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <240ms>
+12:59:56.7806-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.7806-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.7806-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+12:59:56.7806-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <308ms>
+12:59:57.3299-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+12:59:57.6911-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:59:57.6911-04:00 - INFO  - App.OnStartup - Startup cost <1834ms>
+12:59:58.5468-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+13:00:01.1087-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4547ms>
+13:00:01.1087-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 102
+13:27:53.7193-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+13:27:53.7236-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+13:27:57.4378-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <59ms>
+13:27:57.4378-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <39ms>
+13:27:57.4378-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <35ms>
+13:27:57.4540-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <95ms>
+13:27:57.4540-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <109ms>
+13:27:57.4694-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <100ms>
+13:27:57.4694-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <128ms>
+13:27:57.5156-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <293ms>
+13:27:57.5384-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:27:57.5587-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <89ms>
+13:27:57.5587-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+13:27:57.5587-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+13:27:57.6003-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <165ms>
+13:27:57.6189-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <224ms>
+13:27:57.6371-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:27:57.6371-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:27:57.6371-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+13:27:57.6371-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <392ms>
+13:27:57.6583-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <223ms>
+13:27:57.7193-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <344ms>
+13:27:57.9923-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:27:57.9923-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <643ms>
+13:27:58.0073-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <641ms>
+13:27:58.5098-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+13:27:58.8932-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:27:58.8973-04:00 - INFO  - App.OnStartup - Startup cost <5940ms>
+13:27:59.9541-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+13:28:02.5012-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4762ms>
+13:28:02.5012-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 102
+13:34:25.2944-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+13:34:25.2944-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+13:34:27.8129-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <38ms>
+13:34:27.8129-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <68ms>
+13:34:27.8129-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <46ms>
+13:34:27.8308-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <99ms>
+13:34:27.8424-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <120ms>
+13:34:27.8424-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <116ms>
+13:34:27.8424-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <144ms>
+13:34:27.8966-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <316ms>
+13:34:27.9224-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:34:27.9550-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <110ms>
+13:34:27.9550-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+13:34:27.9550-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+13:34:27.9909-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <181ms>
+13:34:28.0146-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <251ms>
+13:34:28.0285-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:34:28.0285-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:34:28.0285-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+13:34:28.0285-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <432ms>
+13:34:28.0513-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <241ms>
+13:34:28.1162-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <372ms>
+13:34:28.3761-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <638ms>
+13:34:28.4084-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:34:28.4084-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <707ms>
+13:34:28.9990-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+13:34:29.4836-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:34:29.4836-04:00 - INFO  - App.OnStartup - Startup cost <4875ms>
+13:34:30.6277-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+13:34:33.4817-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <5342ms>
+13:34:33.4817-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 102
+13:37:08.2737-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+13:37:08.2765-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+13:37:10.7344-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <51ms>
+13:37:10.7344-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <44ms>
+13:37:10.7344-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <87ms>
+13:37:10.7576-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <121ms>
+13:37:10.7576-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <143ms>
+13:37:10.7750-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <122ms>
+13:37:10.7750-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <160ms>
+13:37:10.8194-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <392ms>
+13:37:10.8447-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:10.8758-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <102ms>
+13:37:10.8758-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+13:37:10.8758-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+13:37:10.9151-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <183ms>
+13:37:10.9385-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <279ms>
+13:37:10.9526-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:10.9526-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:10.9526-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+13:37:10.9526-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <575ms>
+13:37:10.9797-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <248ms>
+13:37:11.0469-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <393ms>
+13:37:11.3698-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:11.3698-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <751ms>
+13:37:11.3883-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <736ms>
+13:37:12.0544-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+13:37:12.6488-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:37:12.6583-04:00 - INFO  - App.OnStartup - Startup cost <4474ms>
+13:37:13.8720-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+13:37:17.0830-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <6019ms>
+13:37:17.0830-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 102
+13:41:32.3789-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+13:41:32.3789-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+13:41:35.0517-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <50ms>
+13:41:35.0517-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <44ms>
+13:41:35.0678-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <100ms>
+13:41:35.0942-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <161ms>
+13:41:35.0987-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <141ms>
+13:41:35.0987-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <172ms>
+13:41:35.1278-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <163ms>
+13:41:35.1658-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <399ms>
+13:41:35.2259-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <102ms>
+13:41:35.2259-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+13:41:35.2259-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+13:41:35.2259-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:41:35.2631-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <215ms>
+13:41:35.2849-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <290ms>
+13:41:35.3295-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <281ms>
+13:41:35.3529-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <555ms>
+13:41:35.3684-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <388ms>
+13:41:35.3684-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:41:35.3684-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:41:35.3684-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+13:41:35.6956-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <744ms>
+13:41:35.7541-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:41:35.7541-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:41:35.7541-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <829ms>
+13:41:36.3337-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+13:41:36.7867-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:41:36.7867-04:00 - INFO  - App.OnStartup - Startup cost <5270ms>
+13:41:37.9123-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+13:41:40.5611-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <5158ms>
+13:41:40.5611-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 102
+16:13:56.8494-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+16:13:56.8494-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+16:13:59.7477-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <84ms>
+16:13:59.7477-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <48ms>
+16:13:59.7477-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <62ms>
+16:13:59.7835-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <148ms>
+16:13:59.8024-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <162ms>
+16:13:59.8271-04:00 - INFO  - JsonStorage.Load - Failed to load settings.json, C:\Users\nicol\AppData\Roaming\FlowLauncher\Settings\Plugins\Flow.Launcher.Plugin.WebSearch\Settings.json.bak restored successfully
+16:13:59.8271-04:00 - INFO  - JsonStorage.Load - Failed to load settings.json, C:\Users\nicol\AppData\Roaming\FlowLauncher\Settings\Plugins\Flow.Launcher.Plugin.BrowserBookmark\Settings.json.bak restored successfully
+16:13:59.8271-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <210ms>
+16:13:59.8889-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <419ms>
+16:13:59.8889-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <247ms>
+16:13:59.9455-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+16:13:59.9492-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <139ms>
+16:13:59.9492-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+16:13:59.9492-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+16:14:00.0141-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <270ms>
+16:14:00.0326-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <340ms>
+16:14:00.0326-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <368ms>
+16:14:00.0879-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <588ms>
+16:14:00.0879-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+16:14:00.0879-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+16:14:00.0975-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+16:14:00.1236-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <379ms>
+16:14:00.4012-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <776ms>
+16:14:00.6115-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <993ms>
+16:14:01.4003-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+16:14:02.0131-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+16:14:02.0131-04:00 - INFO  - App.OnStartup - Startup cost <5953ms>
+16:14:02.5886-04:00 - ERROR - Updater.UpdateApp - Check your connection and proxy settings to github-cloud.s3.amazonaws.com.
+EXCEPTION OCCURS: System.Net.Http.HttpRequestException: No such host is known. (api.github.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async bool System.Net.Sockets.Socket.ConnectAsync(SocketAsyncEventArgs e)+WaitForConnectWithCancellation(?)
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   at async ValueTask<ValueTuple<Stream, TransportContext>> System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async ValueTask<HttpConnection> System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at async ValueTask<T> System.Threading.Tasks.TaskCompletionSourceWithCancellation<T>.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at async ValueTask<T> System.Net.Http.HttpConnectionPool+HttpConnectionWaiter<T>.WaitForConnectionAsync(bool async, CancellationToken requestCancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, bool async, bool doRequestAuth, CancellationToken cancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task<Stream> System.Net.Http.HttpClient.GetStreamAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at async Task<Stream> Flow.Launcher.Infrastructure.Http.Http.GetStreamAsync(Uri url, CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Http/Http.cs:line 161
+   at async Task<UpdateManager> Flow.Launcher.Core.Updater.GitHubUpdateManagerAsync(string repository) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 127
+   at async Task Flow.Launcher.Core.Updater.UpdateAppAsync(IPublicAPI api, bool silentUpdate) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 43
+
+16:14:06.2724-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <6018ms>
+16:14:06.2724-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 93
+23:51:45.8517-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+23:51:45.8517-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+23:51:48.7383-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <86ms>
+23:51:48.7383-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <55ms>
+23:51:48.7759-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <49ms>
+23:51:48.7870-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <165ms>
+23:51:48.8051-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <179ms>
+23:51:48.8169-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <241ms>
+23:51:48.8169-04:00 - INFO  - JsonStorage.Load - Failed to load settings.json, C:\Users\nicol\AppData\Roaming\FlowLauncher\Settings\Plugins\Flow.Launcher.Plugin.WebSearch\Settings.json.bak restored successfully
+23:51:48.8909-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <446ms>
+23:51:48.9024-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <263ms>
+23:51:48.9219-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+23:51:48.9582-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <156ms>
+23:51:48.9582-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+23:51:48.9582-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+23:51:49.0405-04:00 - INFO  - JsonStorage.Load - Failed to load settings.json, C:\Users\nicol\AppData\Roaming\FlowLauncher\Settings\Plugins\Unicode Finder\Settings.json.bak restored successfully
+23:51:49.0405-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <373ms>
+23:51:49.0710-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+23:51:49.0710-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+23:51:49.0710-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+23:51:49.0710-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <604ms>
+23:51:49.1210-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <388ms>
+23:51:49.2830-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <634ms>
+23:51:49.4360-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <821ms>
+23:51:49.5211-04:00 - ERROR - PluginManager.InitializePluginsAsync - Fail to Init plugin: Unicode Finder
+EXCEPTION OCCURS: System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at void System.IO.FileSystem.ReplaceFile(string sourceFullPath, string destFullPath, string destBackupFullPath, bool ignoreMetadataErrors)
+   at void Flow.Launcher.Infrastructure.Storage.JsonStorage<T>.RestoreBackup() in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Storage/JsonStorage.cs:line 105
+   at async ValueTask<T> Flow.Launcher.Infrastructure.Storage.JsonStorage<T>.TryLoadBackupAsync() in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Storage/JsonStorage.cs:line 91
+   at async ValueTask<T> Flow.Launcher.Infrastructure.Storage.JsonStorage<T>.TryLoadBackupAsync() in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Storage/JsonStorage.cs:line 93
+   at async ValueTask<T> Flow.Launcher.Infrastructure.Storage.JsonStorage<T>.LoadBackupOrDefaultAsync() in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Storage/JsonStorage.cs:line 75
+   at async Task<T> Flow.Launcher.Infrastructure.Storage.JsonStorage<T>.LoadAsync() in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Storage/JsonStorage.cs:line 62
+   at async Task Flow.Launcher.Core.Plugin.JsonRPCPluginSettings.InitializeAsync() in C:/projects/flow-launcher/Flow.Launcher.Core/Plugin/JsonRPCPluginSettings.cs:line 38
+   at async Task Flow.Launcher.Core.Plugin.JsonRPCPluginBase.InitSettingAsync() in C:/projects/flow-launcher/Flow.Launcher.Core/Plugin/JsonRPCPluginBase.cs:line 144
+   at async Task Flow.Launcher.Core.Plugin.JsonRPCPluginBase.InitAsync(PluginInitContext context) in C:/projects/flow-launcher/Flow.Launcher.Core/Plugin/JsonRPCPluginBase.cs:line 150
+   at async Task Flow.Launcher.Core.Plugin.PythonPlugin.InitAsync(PluginInitContext context) in C:/projects/flow-launcher/Flow.Launcher.Core/Plugin/PythonPlugin.cs:line 57
+   at async Task<long> Flow.Launcher.Infrastructure.Stopwatch.DebugAsync(string message, Func<Task> action) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Stopwatch.cs:line 34
+   at async Task Flow.Launcher.Core.Plugin.PluginManager.InitializePluginsAsync(IPublicAPI api)+(?) => { } in C:/projects/flow-launcher/Flow.Launcher.Core/Plugin/PluginManager.cs:line 127
+
+23:51:49.8446-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <1209ms>
+23:51:50.5524-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+23:51:50.9691-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+23:51:50.9691-04:00 - INFO  - App.OnStartup - Startup cost <5937ms>
+23:51:51.1346-04:00 - ERROR - Updater.UpdateApp - Check your connection and proxy settings to github-cloud.s3.amazonaws.com.
+EXCEPTION OCCURS: System.Net.Http.HttpRequestException: No such host is known. (api.github.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async bool System.Net.Sockets.Socket.ConnectAsync(SocketAsyncEventArgs e)+WaitForConnectWithCancellation(?)
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   at async ValueTask<ValueTuple<Stream, TransportContext>> System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async ValueTask<HttpConnection> System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at async ValueTask<T> System.Threading.Tasks.TaskCompletionSourceWithCancellation<T>.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at async ValueTask<T> System.Net.Http.HttpConnectionPool+HttpConnectionWaiter<T>.WaitForConnectionAsync(bool async, CancellationToken requestCancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, bool async, bool doRequestAuth, CancellationToken cancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task<Stream> System.Net.Http.HttpClient.GetStreamAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at async Task<Stream> Flow.Launcher.Infrastructure.Http.Http.GetStreamAsync(Uri url, CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Http/Http.cs:line 161
+   at async Task<UpdateManager> Flow.Launcher.Core.Updater.GitHubUpdateManagerAsync(string repository) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 127
+   at async Task Flow.Launcher.Core.Updater.UpdateAppAsync(IPublicAPI api, bool silentUpdate) in C:/projects/flow-launcher/Flow.Launcher.Core/Updater.cs:line 43
+
+23:51:54.5452-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <5239ms>
+23:51:54.5452-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 93
+23:55:41.0071-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+23:55:41.0071-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.18.0
+OS Version: 22621.3737
+IntPtr Length: 8
+x64: True
+23:55:43.9011-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <29ms>
+23:55:43.9011-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <52ms>
+23:55:43.9011-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <32ms>
+23:55:43.9158-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <80ms>
+23:55:43.9275-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <95ms>
+23:55:43.9275-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <91ms>
+23:55:43.9275-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <115ms>
+23:55:43.9703-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <242ms>
+23:55:43.9908-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+23:55:44.0118-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <82ms>
+23:55:44.0118-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <275>
+23:55:44.0118-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <29>
+23:55:44.0680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <203ms>
+23:55:44.0680-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <175ms>
+23:55:44.0993-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <200ms>
+23:55:44.0993-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+23:55:44.0993-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+23:55:44.0993-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+23:55:44.0993-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <365ms>
+23:55:44.1311-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <285ms>
+23:55:44.3690-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <526ms>
+23:55:44.3912-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 164 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+23:55:44.3959-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <570ms>
+23:55:44.7369-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Python312\pythonw.exe
+Node Path: 
+23:55:45.0490-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+23:55:45.0519-04:00 - INFO  - App.OnStartup - Startup cost <4610ms>
+23:55:46.1144-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "0F4C15147CCE5AD43CBE27120B61230BB834A32E",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.18.0-full.nupkg",
+  "Query": null,
+  "Filesize": 105458488,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "0F4C15147CCE5AD43CBE27120B61230BB834A32E FlowLauncher-1.18.0-full.nupkg 105458488",
+  "Version": {
+    "Version": "1.18.0.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+23:55:49.2825-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <5103ms>
+23:55:49.2825-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <147>, Images Number: 147, Unique Items 102

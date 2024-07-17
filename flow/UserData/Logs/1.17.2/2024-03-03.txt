@@ -1,0 +1,195 @@
+02:25:48.5627-05:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+04:24:15.6566-05:00 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
+16:38:27.3550-05:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+18:37:32.3133-05:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+18:37:32.3133-05:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 22621.3155
+IntPtr Length: 8
+x64: True
+18:37:32.5309-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+18:37:32.5309-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <13ms>
+18:37:32.5309-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+18:37:32.5426-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+18:37:32.5426-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <3ms>
+18:37:32.5426-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <21ms>
+18:37:32.5532-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:37:32.5532-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <30ms>
+18:37:32.5532-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <32ms>
+18:37:32.5532-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <15ms>
+18:37:32.5532-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <39ms>
+18:37:32.5740-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <12ms>
+18:37:32.5740-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <297>
+18:37:32.5740-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <25>
+18:37:32.5740-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <50ms>
+18:37:32.5740-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <49ms>
+18:37:32.5969-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:37:32.5969-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+18:37:32.5969-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+18:37:32.6166-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <93ms>
+18:37:32.6166-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Github Quick Launcher> is <84ms>
+18:37:32.6166-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <99ms>
+18:37:32.6877-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <162ms>
+18:37:32.7877-05:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+18:37:32.7877-05:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+18:37:32.7877-05:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+18:37:32.8135-05:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+18:37:32.8135-05:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+18:37:32.8135-05:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+18:37:33.2114-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 150 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+18:37:33.2114-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <687ms>
+18:37:33.2627-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <686ms>
+18:37:33.3946-05:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+18:37:33.4644-05:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+18:37:33.4644-05:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+18:37:33.4644-05:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+18:37:33.4959-05:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+18:37:33.4959-05:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+18:37:33.4959-05:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+18:37:33.5875-05:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+18:37:33.5875-05:00 - INFO  - App.OnStartup - Startup cost <1347ms>
+18:37:33.9759-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <1399ms>
+18:37:34.4088-05:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+18:37:36.3905-05:00 - INFO  - ImageLoader.Initialize - Preload images cost <3819ms>
+18:37:36.3905-05:00 - INFO  - ImageLoader.Initialize - Number of preload images is <63>, Images Number: 63, Unique Items 57
+19:03:46.3955-05:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+19:03:46.3955-05:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 22621.3155
+IntPtr Length: 8
+x64: True
+19:03:46.6094-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Registry> is <3ms>
+19:03:46.6094-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <2ms>
+19:03:46.6094-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <2ms>
+19:03:46.6094-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <2ms>
+19:03:46.6094-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <13ms>
+19:03:46.6264-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <21ms>
+19:03:46.6264-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:03:46.6264-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <30ms>
+19:03:46.6264-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <14ms>
+19:03:46.6264-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <32ms>
+19:03:46.6420-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <37ms>
+19:03:46.6420-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <43ms>
+19:03:46.6420-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+19:03:46.6420-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <297>
+19:03:46.6420-05:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <25>
+19:03:46.6695-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:03:46.6695-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:03:46.6695-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+19:03:46.6841-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <81ms>
+19:03:46.6841-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <83ms>
+19:03:46.6841-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Github Quick Launcher> is <70ms>
+19:03:46.6841-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <86ms>
+19:03:46.7275-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <123ms>
+19:03:46.7893-05:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 150 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:03:46.7893-05:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <186ms>
+19:03:47.0049-05:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+19:03:47.2084-05:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+19:03:47.2084-05:00 - INFO  - App.OnStartup - Startup cost <883ms>
+19:03:47.9457-05:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+19:03:48.1730-05:00 - INFO  - ImageLoader.Initialize - Preload images cost <1526ms>
+19:03:48.1730-05:00 - INFO  - ImageLoader.Initialize - Number of preload images is <56>, Images Number: 56, Unique Items 49

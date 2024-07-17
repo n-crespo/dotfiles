@@ -1,0 +1,1133 @@
+15:02:33.9716-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+15:12:44.1467-04:00 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
+15:13:01.7287-04:00 - WARN  - JsonRPCPlugin.ExecuteAsync - Empty JSON-RPC Response.
+19:14:27.1412-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+19:14:27.1438-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 22621.3296
+IntPtr Length: 8
+x64: True
+19:14:27.5239-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <5ms>
+19:14:27.5239-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <5ms>
+19:14:27.5424-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <5ms>
+19:14:27.5424-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <21ms>
+19:14:27.5424-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <34ms>
+19:14:27.5424-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:14:27.5651-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <46ms>
+19:14:27.5651-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <48ms>
+19:14:27.5651-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <55ms>
+19:14:27.5651-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <55ms>
+19:14:27.5806-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <64ms>
+19:14:27.5806-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <15ms>
+19:14:27.5806-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <300>
+19:14:27.5806-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <25>
+19:14:27.5806-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <67ms>
+19:14:27.6121-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:14:27.6121-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:14:27.6121-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+19:14:27.6318-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <121ms>
+19:14:27.6423-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <124ms>
+19:14:27.6903-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <179ms>
+19:14:27.7949-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+19:14:27.7949-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+19:14:27.7949-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+19:14:27.8239-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+19:14:27.8239-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+19:14:27.8239-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+19:14:28.4250-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <841ms>
+19:14:28.4946-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+19:14:28.4946-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <981ms>
+19:14:28.6809-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+19:14:28.6809-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+19:14:28.6809-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+19:14:28.7303-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+19:14:28.7995-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+19:14:28.7995-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+19:14:28.7995-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+19:14:28.9929-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+19:14:29.0022-04:00 - INFO  - App.OnStartup - Startup cost <1938ms>
+19:14:29.3892-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <1805ms>
+19:14:29.6563-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+19:14:31.9098-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4337ms>
+19:14:31.9098-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <79>, Images Number: 79, Unique Items 64
+21:44:40.9109-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:40.9109-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+21:44:40.9109-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+21:44:40.9403-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:40.9403-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+21:44:40.9403-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+21:44:44.4998-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:44.4998-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+21:44:44.4998-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+21:44:44.5854-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:44.5854-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+21:44:44.5854-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+21:44:51.3168-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:51.3168-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+21:44:51.3168-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+21:44:51.3253-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:51.3253-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+21:44:51.3253-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+21:44:52.3502-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:52.3502-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+21:44:52.3502-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+21:44:52.4005-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+21:44:52.4005-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+21:44:52.4005-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:41:32.0880-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:41:32.0880-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:41:32.0880-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:41:32.0880-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:41:32.1032-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:41:32.1032-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:41:32.5971-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:41:32.5971-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:41:32.5971-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:41:32.6249-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:41:32.6249-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:41:32.6249-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:47:23.7258-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:47:23.7258-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:47:23.7258-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:47:23.7310-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:47:23.7310-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:47:23.7310-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:47:24.1291-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:47:24.1291-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:47:24.1291-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:47:24.1448-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:47:24.1448-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:47:24.1448-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:47:39.6643-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+22:47:39.6664-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.17.2
+OS Version: 22621.3296
+IntPtr Length: 8
+x64: True
+22:47:41.0608-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <41ms>
+22:47:41.0608-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <31ms>
+22:47:41.0608-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <34ms>
+22:47:41.0608-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <54ms>
+22:47:41.0837-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <94ms>
+22:47:41.0837-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <88ms>
+22:47:41.0938-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <118ms>
+22:47:41.0938-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <8ms>
+22:47:41.0938-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <291>
+22:47:41.0938-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <25>
+22:47:41.1329-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <164ms>
+22:47:41.1329-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:47:41.1599-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Clipboard History> is <155ms>
+22:47:41.1599-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Unicode Finder> is <104ms>
+22:47:41.1729-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:47:41.1729-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:47:41.1729-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+22:47:41.1729-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <153ms>
+22:47:41.2109-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Emoji+> is <152ms>
+22:47:41.2236-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <252ms>
+22:47:41.3537-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <350ms>
+22:47:41.4105-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 153 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+22:47:41.4105-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <432ms>
+22:47:41.7292-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+22:47:42.0165-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+22:47:42.0165-04:00 - INFO  - App.OnStartup - Startup cost <2652ms>
+22:47:43.1592-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.17.2-full.nupkg",
+  "Query": null,
+  "Filesize": 105388595,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "AE2E89611857AD4D6FA76D59827AE2E1DD8BC4F9 FlowLauncher-1.17.2-full.nupkg 105388595",
+  "Version": {
+    "Version": "1.17.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+22:47:43.7454-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <2654ms>
+22:47:43.7454-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <54>, Images Number: 54, Unique Items 47
+22:48:42.1296-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:42.1296-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:48:42.1296-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:48:42.1296-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:42.1296-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:48:42.1296-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:48:42.5636-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:42.5636-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:48:42.5636-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:48:42.5775-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:42.5775-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:48:42.5775-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:48:45.9580-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:45.9580-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:48:45.9580-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:48:45.9580-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:45.9580-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:48:45.9580-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:48:46.3232-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:46.3232-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:48:46.3232-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:48:46.3376-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:48:46.3376-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:48:46.3376-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.2004-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.2004-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:52:09.2004-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.2004-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.2004-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:52:09.2004-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.6416-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.6416-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:52:09.6416-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.6787-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.6787-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:52:09.6787-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8146-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:09.8146-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:09.8807-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <695ms>
+22:52:09.9920-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <806ms>
+22:52:54.8602-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:54.8602-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:52:54.8602-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:54.8602-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:54.8602-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:52:54.8602-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:55.2362-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:55.2362-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:52:55.2362-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:55.2519-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:55.2519-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:52:55.2519-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:57.6016-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:57.6016-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:52:57.6016-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:57.6042-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:57.6042-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:52:57.6042-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.0289-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.0289-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:52:58.0289-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.0473-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.0473-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:52:58.0473-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloud can't find logo uri for iCloud\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPhotoViewer can't find logo uri for Photos\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (logo name or directory not found): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: AppleInc.iCloud_nzyj5cx40ttqa!iCloudPasswords can't find logo uri for PwdMgrUI\Square44x44Logo.png in package location (can't find specified logo): C:\Program Files\WindowsApps\AppleInc.iCloud_15.0.215.0_x64__nzyj5cx40ttqa
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+22:52:58.1147-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:52:58.1147-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <528ms>
+22:52:58.2957-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <707ms>
+23:49:49.8350-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:49:49.8350-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+23:49:49.8350-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:49:49.8400-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:49:49.8400-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+23:49:49.8400-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:49:50.3642-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:49:50.3642-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+23:49:50.3642-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:49:50.3845-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:49:50.3845-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+23:49:50.3845-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:57:42.9453-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:57:42.9453-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+23:57:42.9453-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:57:42.9481-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:57:42.9481-04:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+23:57:42.9481-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:57:43.3411-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:57:43.3411-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+23:57:43.3411-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:57:43.3563-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:57:43.3563-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+23:57:43.3563-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------

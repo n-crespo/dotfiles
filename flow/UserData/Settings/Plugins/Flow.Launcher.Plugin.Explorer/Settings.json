@@ -1,0 +1,35 @@
+{
+  "MaxResult": 100,
+  "QuickAccessLinks": [
+    {
+      "Path": "C:\\Users\\nicol\\OneDrive\\Desktop\\OOSU10.exe",
+      "Type": 2
+    }
+  ],
+  "IndexSearchExcludedSubdirectoryPaths": [],
+  "EditorPath": "",
+  "FolderEditorPath": "",
+  "ShellPath": "cmd",
+  "UseLocationAsWorkingDir": false,
+  "ShowWindowsContextMenu": true,
+  "DefaultOpenFolderInFileManager": true,
+  "SearchActionKeyword": "f",
+  "SearchActionKeywordEnabled": true,
+  "FileContentSearchActionKeyword": "doc:",
+  "FileContentSearchKeywordEnabled": false,
+  "PathSearchActionKeyword": "*",
+  "PathSearchKeywordEnabled": false,
+  "IndexSearchActionKeyword": "*",
+  "IndexSearchKeywordEnabled": false,
+  "QuickAccessActionKeyword": "*",
+  "QuickAccessKeywordEnabled": false,
+  "WarnWindowsSearchServiceOff": true,
+  "IndexSearchEngine": 1,
+  "PathEnumerationEngine": 1,
+  "ContentSearchEngine": 1,
+  "EverythingInstalledPath": "C:\\Program Files\\Everything\\Everything.exe",
+  "SortOption": 1,
+  "EnableEverythingContentSearch": true,
+  "EverythingEnabled": true,
+  "EverythingSearchFullPath": false
+}

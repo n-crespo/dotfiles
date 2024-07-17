@@ -1,0 +1,14 @@
+{
+  "OpenInNewBrowserWindow": true,
+  "BrowserPath": null,
+  "LoadChromeBookmark": true,
+  "LoadFirefoxBookmark": true,
+  "LoadEdgeBookmark": true,
+  "CustomChromiumBrowsers": [
+    {
+      "Name": "Mercury",
+      "DataDirectoryPath": "C:\\Users\\nicol\\AppData\\Local\\mercury\\Profiles\\daeawbmw.default-default",
+      "BrowserType": 1
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "records": {
+    "sioyek": {
+      "Title": "sioyek.exe",
+      "SubTitle": "C:\\Users\\nicol\\pdf-viewer\\sioyek-release-windows",
+      "PluginID": "572be03c74c642baae319fc283e561a8"
+    },
+    "ticktick": {
+      "Title": "TickTick",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "tick": {
+      "Title": "TickTick",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "settings": {
+      "Title": "Settings",
+      "SubTitle": "Tweak Flow Launcher\u0027s settings",
+      "PluginID": "CEA08895D2544B019B2E9C5009600DF4"
+    },
+    "outlook": {
+      "Title": "Outlook (new)",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "notepad": {
+      "Title": "Notepads",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "note": {
+      "Title": "Notepads",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "notep": {
+      "Title": "Notepads",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "notepa": {
+      "Title": "Notepads",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "/ unin": {
+      "Title": "Uninstall a program",
+      "SubTitle": "Control Panel \u003E Unknown",
+      "PluginID": "5043CETYU6A748679OPA02D27D99677A"
+    },
+    "send": {
+      "Title": "LocalSend: An open source cross-platform alternative to AirDrop",
+      "SubTitle": "",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    }
+  }
+}

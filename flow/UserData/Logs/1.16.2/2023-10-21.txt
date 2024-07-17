@@ -1,0 +1,856 @@
+02:42:23.2350-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+02:42:23.2350-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+02:42:23.2745-04:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+02:42:23.2948-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <5ms>
+02:42:23.2948-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <2>, Images Number: 2, Unique Items 2
+02:42:23.5083-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+02:42:23.5083-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+02:42:23.5083-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+02:42:23.5083-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <18ms>
+02:42:23.5083-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <6ms>
+02:42:23.5083-04:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+02:42:23.5083-04:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+02:42:23.5083-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <2ms>
+02:42:23.5083-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <0>
+02:42:23.5083-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <0>
+02:42:23.5083-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <15ms>
+02:42:23.5170-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <13ms>
+02:42:23.5170-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+02:42:23.5170-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <20ms>
+02:42:23.5346-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <53ms>
+02:42:23.5346-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <31ms>
+02:42:23.5776-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+02:42:23.5776-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+02:42:23.5776-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+02:42:23.7494-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <247ms>
+02:42:24.2690-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+02:42:24.2690-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <770ms>
+02:42:24.4674-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <950ms>
+02:42:24.4825-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: 
+Node Path: 
+02:42:27.1247-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+02:42:27.1247-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+02:42:27.1247-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+02:42:27.1718-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+02:42:27.1718-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+02:42:27.1718-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+02:42:30.4980-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <6981ms>
+02:42:30.9344-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+02:42:30.9344-04:00 - INFO  - App.OnStartup - Startup cost <7810ms>
+02:49:50.3068-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+02:58:29.3289-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE CONTAINS(System.FileName,'"12*" AND "%*"',1033) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041605): Unspecified error: -2147215867(0x80041605)
+   at void System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, out object executeResult)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandText(out object executeResult)
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+02:58:29.4677-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE CONTAINS(System.FileName,'"12*" AND "%*"',1033) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041605): Unspecified error: -2147215867(0x80041605)
+   at void System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, out object executeResult)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandText(out object executeResult)
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+02:58:29.5859-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE CONTAINS(System.FileName,'"12*" AND "%*" AND "5*"',1033) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041605): Unspecified error: -2147215867(0x80041605)
+   at void System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, out object executeResult)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandText(out object executeResult)
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:42.7150-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%1%' OR CONTAINS(System.FileName,'"123*1*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:42.8006-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%12%' OR CONTAINS(System.FileName,'"123*12*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:42.8191-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%' OR CONTAINS(System.FileName,'"123*123*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:43.1699-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%' OR CONTAINS(System.FileName,'"123*123*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:43.2600-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!%' OR CONTAINS(System.FileName,'"123*123*!*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:43.3161-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!3%' OR CONTAINS(System.FileName,'"123*123*!3*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:43.7029-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!31%' OR CONTAINS(System.FileName,'"123*123*!31*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:43.7610-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!312%' OR CONTAINS(System.FileName,'"123*123*!312*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:43.7991-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!3123%' OR CONTAINS(System.FileName,'"123*123*!3123*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:44.0021-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!3123%' OR CONTAINS(System.FileName,'"123*123*!3123*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:44.9700-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!3123%' OR CONTAINS(System.FileName,'"123*123*!3123*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:45.1997-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!312%' OR CONTAINS(System.FileName,'"123*123*!312*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:45.2163-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!31%' OR CONTAINS(System.FileName,'"123*123*!31*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:45.2571-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!3%' OR CONTAINS(System.FileName,'"123*123*!3*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:45.5357-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%!%' OR CONTAINS(System.FileName,'"123*123*!*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:45.7014-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%' OR CONTAINS(System.FileName,'"123*123*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:02:47.2989-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE (System.FileName LIKE '123%123%' OR CONTAINS(System.FileName,'"123*123*"',1033)) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041607): Unspecified error: -2147215865(0x80041607)
+   at void System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at void System.Data.OleDb.OleDbDataReader.GetRowHandles()
+   at bool System.Data.OleDb.OleDbDataReader.ReadRowset()
+   at bool System.Data.OleDb.OleDbDataReader.Read()
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+03:05:06.2665-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:05:06.2668-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:05:06.2668-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:05:06.2668-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:05:06.3545-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:10:02.3349-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:10:02.3349-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:10:02.3349-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:10:02.3349-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:10:02.4103-04:00 - INFO  - CommunityPluginSource.FetchAsync - Resource https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json has not been modified.
+03:14:19.9964-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:14:19.9964-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:14:19.9964-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:14:19.9964-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:14:20.1132-04:00 - INFO  - CommunityPluginSource.FetchAsync - Resource https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json has not been modified.
+03:15:08.3565-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+03:15:08.3565-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+03:15:09.3079-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <909ms>
+03:15:09.3079-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <71>, Images Number: 71, Unique Items 57
+03:16:40.2047-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+03:16:40.2047-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+03:16:40.2047-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+03:16:40.2181-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <28ms>
+03:16:40.2276-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:16:40.2276-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <30ms>
+03:16:40.2276-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <32ms>
+03:16:40.2276-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <4ms>
+03:16:40.2276-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+03:16:40.2276-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+03:16:40.2420-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <41ms>
+03:16:40.2420-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <46ms>
+03:16:40.2646-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:16:40.2646-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:16:40.2646-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:16:40.2646-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <67ms>
+03:16:40.2774-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <82ms>
+03:16:40.2774-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <General Converter> is <85ms>
+03:16:40.3207-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <122ms>
+03:16:40.4135-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:16:40.4135-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:16:40.4135-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <216ms>
+03:16:40.6220-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+03:16:40.8586-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+03:16:40.8586-04:00 - INFO  - App.OnStartup - Startup cost <92582ms>
+03:16:41.1449-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:19:50.8382-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:19:50.8382-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:19:50.8382-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:19:50.8382-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:19:50.9410-04:00 - INFO  - CommunityPluginSource.FetchAsync - Resource https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json has not been modified.
+03:19:50.9410-04:00 - INFO  - CommunityPluginSource.FetchAsync - Resource https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json has not been modified.
+03:19:50.9410-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:20:05.4316-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+03:20:05.4316-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+03:20:05.7748-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <17ms>
+03:20:05.7748-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+03:20:05.7748-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+03:20:05.7748-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+03:20:05.7748-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <FendCalculator> is <63ms>
+03:20:05.7969-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:20:05.7969-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <29ms>
+03:20:05.8010-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <31ms>
+03:20:05.8010-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <5ms>
+03:20:05.8010-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+03:20:05.8010-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+03:20:05.8010-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <39ms>
+03:20:05.8010-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <42ms>
+03:20:05.8329-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:20:05.8329-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:20:05.8329-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:20:05.8329-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <69ms>
+03:20:05.8508-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <86ms>
+03:20:05.8508-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <General Converter> is <88ms>
+03:20:05.9003-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <133ms>
+03:20:05.9785-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:20:05.9785-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <212ms>
+03:20:06.1812-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+03:20:06.3914-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+03:20:06.3914-04:00 - INFO  - App.OnStartup - Startup cost <1041ms>
+03:20:06.7953-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <1313ms>
+03:20:06.7953-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <95>, Images Number: 95, Unique Items 62
+03:20:07.3583-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:33:05.5111-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+03:33:05.5111-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+03:33:05.7525-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+03:33:05.7525-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <2ms>
+03:33:05.7525-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+03:33:05.7706-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <32ms>
+03:33:05.7706-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <FendCalculator> is <22ms>
+03:33:05.7706-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:33:05.7706-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <33ms>
+03:33:05.7706-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <37ms>
+03:33:05.7706-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <5ms>
+03:33:05.7859-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+03:33:05.7859-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+03:33:05.7859-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <42ms>
+03:33:05.7859-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <47ms>
+03:33:05.8090-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:33:05.8090-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:33:05.8090-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:33:05.8090-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <64ms>
+03:33:05.8237-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <79ms>
+03:33:05.8363-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <General Converter> is <86ms>
+03:33:05.8837-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <137ms>
+03:33:05.9467-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:33:05.9586-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <210ms>
+03:33:06.2427-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+03:33:06.4276-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+03:33:06.4276-04:00 - INFO  - App.OnStartup - Startup cost <989ms>
+03:33:06.5371-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <988ms>
+03:33:06.5371-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <63>, Images Number: 63, Unique Items 48
+03:33:07.3071-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:36:14.7660-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+03:36:14.7660-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+03:36:17.0412-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <61ms>
+03:36:17.0412-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <40ms>
+03:36:17.0412-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <34ms>
+03:36:17.0412-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <86ms>
+03:36:17.0682-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <132ms>
+03:36:17.0682-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <92ms>
+03:36:17.0793-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <142ms>
+03:36:17.1139-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <329ms>
+03:36:17.1352-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:17.1564-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <88ms>
+03:36:17.1564-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+03:36:17.1564-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+03:36:17.1771-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <326ms>
+03:36:17.2218-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:17.2218-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:17.2218-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+03:36:17.4214-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <431ms>
+03:36:17.5262-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <General Converter> is <488ms>
+03:36:17.5998-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <655ms>
+03:36:17.6268-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+03:36:17.6268-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <663ms>
+03:36:18.0139-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+03:36:18.2280-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+03:36:18.2280-04:00 - INFO  - App.OnStartup - Startup cost <4126ms>
+03:36:19.2852-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <4395ms>
+03:36:19.2852-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <81>, Images Number: 81, Unique Items 61
+03:36:19.8526-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+03:37:10.6687-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:10.6687-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:10.6687-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:37:10.7006-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:10.7006-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:10.7006-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:37:19.1208-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:19.1208-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:19.1208-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:37:19.1346-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:19.1346-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:19.1346-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:37:28.4449-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:28.4449-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:28.4449-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:37:28.4449-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:28.4449-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:28.4449-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:37:33.3593-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:33.3593-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:33.3593-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+03:37:33.3730-04:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+03:37:33.3730-04:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+03:37:33.3730-04:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+04:29:34.5742-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+04:29:34.5742-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+04:29:34.8527-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <3ms>
+04:29:34.8527-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <3ms>
+04:29:34.8527-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <3ms>
+04:29:34.8692-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <32ms>
+04:29:34.8692-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:29:34.8832-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <36ms>
+04:29:34.8832-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <39ms>
+04:29:34.8832-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <5ms>
+04:29:34.8832-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+04:29:34.8832-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+04:29:34.8832-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <45ms>
+04:29:34.9011-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <53ms>
+04:29:34.9222-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:29:34.9222-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:29:34.9222-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+04:29:34.9222-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <78ms>
+04:29:34.9373-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <95ms>
+04:29:34.9534-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <General Converter> is <104ms>
+04:29:34.9995-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <153ms>
+04:29:35.0603-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:29:35.0603-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <219ms>
+04:29:35.3567-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+04:29:35.5241-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+04:29:35.5241-04:00 - INFO  - App.OnStartup - Startup cost <1022ms>
+04:29:35.8018-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <1186ms>
+04:29:35.8018-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <75>, Images Number: 75, Unique Items 49
+04:29:36.3215-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+04:38:16.3112-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE CONTAINS(System.FileName,'"/*"',1033) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041605): Unspecified error: -2147215867(0x80041605)
+   at void System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, out object executeResult)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandText(out object executeResult)
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+04:38:17.8830-04:00 - ERROR - WindowsIndex.ExecuteWindowsIndexSearchAsync - Failed to execute windows index search query: SELECT TOP 100 "System.FileName", "System.ItemUrl", "System.ItemType" FROM "SystemIndex" WHERE CONTAINS(System.FileName,'"/*"',1033) AND scope='file:' ORDER BY System.FileName
+EXCEPTION OCCURS: System.Data.OleDb.OleDbException (0x80041605): Unspecified error: -2147215867(0x80041605)
+   at void System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, out object executeResult)
+   at int System.Data.OleDb.OleDbCommand.ExecuteCommandText(out object executeResult)
+   at OleDbDataReader System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, string method)
+   at Task<DbDataReader> System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at async IAsyncEnumerable<SearchResult> Flow.Launcher.Plugin.Explorer.Search.WindowsIndex.WindowsIndex.ExecuteWindowsIndexSearchAsync(string indexQueryString, string connectionString, CancellationToken token)+MoveNext() in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.Explorer/Search/WindowsIndex/WindowsIndex.cs:line 71
+
+04:40:55.9808-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+04:40:55.9808-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+04:40:57.7941-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <31ms>
+04:40:57.7941-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <31ms>
+04:40:57.7941-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <45ms>
+04:40:57.7941-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <86ms>
+04:40:57.8061-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <100ms>
+04:40:57.8061-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <110ms>
+04:40:57.8196-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <152ms>
+04:40:57.8748-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <331ms>
+04:40:57.8748-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:40:57.8981-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <91ms>
+04:40:57.8981-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+04:40:57.8981-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+04:40:57.9221-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <300ms>
+04:40:57.9392-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:40:57.9392-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:40:57.9392-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+04:40:58.0509-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <319ms>
+04:40:58.2269-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <504ms>
+04:40:58.2779-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:40:58.2779-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+04:40:58.2779-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <600ms>
+04:40:58.6674-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+04:40:58.8754-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+04:40:58.8754-04:00 - INFO  - App.OnStartup - Startup cost <3401ms>
+04:40:59.6404-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <3596ms>
+04:40:59.6404-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <97>, Images Number: 97, Unique Items 57
+04:41:00.1242-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+05:14:41.4151-04:00 - ERROR - ProcessHelper.TryKill - Failed to kill process BraveCrashHandler
+EXCEPTION OCCURS: System.ComponentModel.Win32Exception (5): Access is denied.
+   at SafeProcessHandle System.Diagnostics.ProcessManager.OpenProcess(int processId, int access, bool throwIfExited)
+   at SafeProcessHandle System.Diagnostics.Process.GetProcessHandle(int access, bool throwIfExited)
+   at void System.Diagnostics.Process.UpdateHasExited()
+   at bool System.Diagnostics.Process.get_HasExited()
+   at void Flow.Launcher.Plugin.ProcessKiller.ProcessHelper.TryKill(Process p) in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.ProcessKiller/ProcessHelper.cs:line 75
+
+05:14:45.3284-04:00 - ERROR - ProcessHelper.TryKill - Failed to kill process BraveCrashHandler
+EXCEPTION OCCURS: System.ComponentModel.Win32Exception (5): Access is denied.
+   at SafeProcessHandle System.Diagnostics.ProcessManager.OpenProcess(int processId, int access, bool throwIfExited)
+   at SafeProcessHandle System.Diagnostics.Process.GetProcessHandle(int access, bool throwIfExited)
+   at void System.Diagnostics.Process.UpdateHasExited()
+   at bool System.Diagnostics.Process.get_HasExited()
+   at void Flow.Launcher.Plugin.ProcessKiller.ProcessHelper.TryKill(Process p) in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.ProcessKiller/ProcessHelper.cs:line 75
+
+05:14:48.9301-04:00 - ERROR - ProcessHelper.TryKill - Failed to kill process BraveCrashHandler
+EXCEPTION OCCURS: System.ComponentModel.Win32Exception (5): Access is denied.
+   at SafeProcessHandle System.Diagnostics.ProcessManager.OpenProcess(int processId, int access, bool throwIfExited)
+   at SafeProcessHandle System.Diagnostics.Process.GetProcessHandle(int access, bool throwIfExited)
+   at void System.Diagnostics.Process.UpdateHasExited()
+   at bool System.Diagnostics.Process.get_HasExited()
+   at void Flow.Launcher.Plugin.ProcessKiller.ProcessHelper.TryKill(Process p) in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.ProcessKiller/ProcessHelper.cs:line 85
+
+05:14:52.7321-04:00 - ERROR - ProcessHelper.TryKill - Failed to kill process BraveCrashHandler
+EXCEPTION OCCURS: System.ComponentModel.Win32Exception (5): Access is denied.
+   at SafeProcessHandle System.Diagnostics.ProcessManager.OpenProcess(int processId, int access, bool throwIfExited)
+   at SafeProcessHandle System.Diagnostics.Process.GetProcessHandle(int access, bool throwIfExited)
+   at void System.Diagnostics.Process.UpdateHasExited()
+   at bool System.Diagnostics.Process.get_HasExited()
+   at void Flow.Launcher.Plugin.ProcessKiller.ProcessHelper.TryKill(Process p) in C:/projects/flow-launcher/Plugins/Flow.Launcher.Plugin.ProcessKiller/ProcessHelper.cs:line 85
+
+05:33:19.9585-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+05:33:19.9585-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+05:33:20.5202-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <4ms>
+05:33:20.5202-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <2ms>
+05:33:20.5202-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <2ms>
+05:33:20.5536-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <53ms>
+05:33:20.5776-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <52ms>
+05:33:20.5776-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:33:20.5846-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <62ms>
+05:33:20.5846-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <11ms>
+05:33:20.5846-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+05:33:20.5846-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+05:33:20.5995-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <97ms>
+05:33:20.6213-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <95ms>
+05:33:20.6450-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <130ms>
+05:33:20.6617-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:33:20.6617-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:33:20.6638-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+05:33:20.6638-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <174ms>
+05:33:20.7452-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <247ms>
+05:33:20.8675-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:33:20.8675-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+05:33:20.8836-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <362ms>
+05:33:21.2241-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+05:33:21.7034-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+05:33:21.7034-04:00 - INFO  - App.OnStartup - Startup cost <1918ms>
+05:33:21.9289-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <1875ms>
+05:33:21.9289-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <54>, Images Number: 54, Unique Items 40
+05:33:22.5139-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
+15:31:07.4149-04:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+15:31:07.4149-04:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22621.2428
+IntPtr Length: 8
+x64: True
+15:31:07.9063-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <6ms>
+15:31:07.9063-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <5ms>
+15:31:07.9063-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <5ms>
+15:31:07.9063-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <27ms>
+15:31:07.9472-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+15:31:07.9472-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <61ms>
+15:31:07.9609-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <63ms>
+15:31:07.9609-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <10ms>
+15:31:07.9609-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <221>
+15:31:07.9609-04:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <20>
+15:31:07.9784-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <79ms>
+15:31:07.9784-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <87ms>
+15:31:08.0097-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+15:31:08.0097-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+15:31:08.0097-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+15:31:08.0097-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <121ms>
+15:31:08.0360-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <147ms>
+15:31:08.1614-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <266ms>
+15:31:08.2527-04:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 133 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+15:31:08.2649-04:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <366ms>
+15:31:08.7925-04:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\Users\nicol\AppData\Local\Programs\Python\Python311\pythonw.exe
+Node Path: 
+15:31:09.3293-04:00 - INFO  - ImageLoader.Initialize - Preload images cost <1833ms>
+15:31:09.3293-04:00 - INFO  - ImageLoader.Initialize - Number of preload images is <54>, Images Number: 54, Unique Items 40
+15:31:09.9223-04:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+15:31:09.9223-04:00 - INFO  - App.OnStartup - Startup cost <2654ms>
+15:31:10.6425-04:00 - INFO  - Updater.UpdateApp - Future Release <{
+  "SHA1": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C",
+  "BaseUrl": null,
+  "Filename": "FlowLauncher-1.16.2-full.nupkg",
+  "Query": null,
+  "Filesize": 93464021,
+  "IsDelta": false,
+  "StagingPercentage": null,
+  "EntryAsString": "8F28D1D91AC6829EE310E7A217C9BC4416F0272C FlowLauncher-1.16.2-full.nupkg 93464021",
+  "Version": {
+    "Version": "1.16.2.0",
+    "SpecialVersion": ""
+  },
+  "PackageName": "FlowLauncher"
+}>
