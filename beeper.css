@@ -1,0 +1,140 @@
+/* removed title bar */
+.bp_TitleBar {
+  display: none;
+}
+
+/* more rounded messages */
+html {
+  --theme-my-bubble-color: #285dfe;
+  --theme-accent-color: #55afd2;
+  --theme-their-bubble-color: #efefef;
+  --theme-chat-background-color: #ffffff;
+  --theme-borderwidth: 0;
+  --theme-borderradius: 13px;
+  --theme-bubble-padding-v: 8px;
+  --theme-bubble-padding-h: 12px;
+  --chatview__backgroundcolor: var(--theme-chat-background-color);
+  --chatview__fontsize: 2.2rem;
+  --chatview__lineheight: var(--chatview__fontsize);
+  --chatview__paddingleft: var(--size-spacing-400);
+  --chatview__paddingright: var(--size-spacing-400);
+  --chatview__composer__borderradius: var(--theme-borderradius);
+  --chatview__composer__backgroundcolor: #efefef;
+  --chatview__message_group__margintop: 12px;
+  --chatview__message_tail__opacity: 1;
+  --chatview__message_tail__color: var(--theme-their-bubble-color);
+  --chatview__message__backgroundcolor: var(--theme-their-bubble-color);
+  --chatview__message__fontcolor: #141414;
+  --chatview__message__paddingleft: var(--theme-bubble-padding-h);
+  --chatview__message__paddingright: var(--theme-bubble-padding-h);
+  --chatview__message__paddingtop: var(--theme-bubble-padding-v);
+  --chatview__message__paddingbottom: var(--theme-bubble-padding-v);
+  --chatview__message__marginleft: 4px;
+  --chatview__message__marginright: 4px;
+  --chatview__message__margintop: 4px;
+  --chatview__message__borderradius: var(--theme-borderradius);
+  --chatview__message_sharp__borderradius: var(--theme-borderradius);
+  --chatview__message_sender_name__alpha: 1;
+  --chatview__message_sender_name__lightness: 35%;
+  --chatview__message_self__backgroundcolor: var(--theme-my-bubble-color);
+  --chatview__readmarker__fontcolor: var(--theme-accent-color);
+}
+html[theme="dark"] {
+  --theme-their-bubble-color: #232326;
+  --theme-chat-background-color: #0f0f0f;
+  --chatview__composer__backgroundcolor: #232326;
+  --chatview__message__fontcolor: #f6f6f6;
+  --chatview__message_sender_name__lightness: 65%;
+}
+
+/***
+ *  Beeper Midnight - v1.3 - May 31, 2023
+ *  a simple pitch-black theme for the Beeper desktop client
+ ***/
+
+/* Variables that make it easier to adjust various colors of Beeper */
+:root {
+  --primary-color: #000;
+  --title-bar-bg: var(
+    --primary-color
+  ); /* the background of the title bar with window actions on it */
+  --left-panel-bg: var(
+    --primary-color
+  ); /* the background of the list of chats on the left */
+  --chat-header-bg: var(
+    --primary-color
+  ); /* the background of the current chat's header */
+  --chat-panel-bg: var(
+    --primary-color
+  ); /* the background of the current chat */
+  --dialog-bg: var(--primary-color); /* the background of dialogs */
+  --left-panel-v2-bg-no-transparency--windows: var(
+    --primary-color
+  ); /* variable that controls bg of source list on the very left of new layout */
+  --left-panel-bg-no-transparency: var(
+    --primary-color
+  ); /* variable that controls bg of source list on the very left of new layout */
+}
+
+/* Makes the input for custom CSS in Beeper preferences larger in order to make editing easier */
+.mx_AppearanceUserSettingsTab .mx_Field.mx_Field_textarea {
+  width: 100% !important;
+  height: 500px !important;
+}
+
+/* title bar */
+.bp_TitleBar {
+  background-color: var(--title-bar-bg);
+}
+
+/* page on right when there is no chat opened */
+.mx_HomePage {
+  background-color: var(--chat-panel-bg);
+}
+
+/* Left Panel */
+.bp_LeftPanel,
+.bp_LeftPanel .rooms_subtitle-container,
+.bp_RoomTile .actions-container .info,
+.mx_MatrixChat_wrapper--windows .bp_LeftPanel,
+.mx_MatrixChat_wrapper--linux .bp_LeftPanel {
+  background-color: var(--left-panel-bg);
+}
+
+/* Room Header */
+.mx_RoomHeader {
+  background: var(--chat-header-bg);
+}
+
+/* Background of right side */
+.mx_RoomView_messageListWrapper {
+  background: var(--chat-panel-bg);
+}
+
+/* message composer */
+.mx_MessageComposer {
+  background: var(--chat-panel-bg);
+}
+
+/* Dialogs */
+.mx_Dialog {
+  background-color: var(--dialog-bg);
+}
+
+/* Room information */
+.dark-panel,
+.mx_RightPanel_ResizeWrapper {
+  background-color: var(--primary-color);
+}
+
+/* padding of message bubbles */
+.mx_EventTile_messageOut .mx_EventTile_line,
+.mx_EventTile_message .mx_EventTile_line {
+  padding: 8px 16px;
+}
+
+/* Who is typing (below composer) */
+.bp_WhoIsTypingTile {
+  z-index: 10;
+  background: var(--chat-panel-bg);
+}
