@@ -30,13 +30,19 @@ return
 #k::Send {Up}
 return
 
+#e::
+Run, %USERPROFILE%\Downloads
+return
+
+!q::Send !{F4}
+
 ;#h::Send {Left}
 ;return
 
-; #d::Send {PgDn}
-; return
+;#d::Send {PgDn}
+;return
 
-; #u::Send {PgUp}
-; return
+;#u::Send {PgUp}
+;return
 
 Reload
