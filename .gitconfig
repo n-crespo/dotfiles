@@ -10,10 +10,8 @@
 [core]
 	editor = /usr/bin/nvim
   pager = delta
-
 [interactive]
-diffFilter = delta --color-only
-
+  diffFilter = delta --color-only --syntax-theme=gruvbox-dark
 [init]
 	defaultBranch = main
 [alias]
