@@ -9,6 +9,11 @@
 	directory = /root/.config/kitty
 [core]
 	editor = /usr/bin/nvim
+  pager = delta
+
+[interactive]
+diffFilter = delta --color-only
+
 [init]
 	defaultBranch = main
 [alias]
