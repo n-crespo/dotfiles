@@ -1,6 +1,6 @@
 [user]
 	email = nicolasecrespo@gmail.com
-	name = Nicolas
+	name = Nicolas Crespo
 [safe]
 	directory = /root/.config/nvim
 	directory = /mnt/c/Users/nicol/AppData/Local/nvim
@@ -23,3 +23,7 @@ diffFilter = delta --color-only
   conf = config --global --edit
   bra = branch -a
   br = branch
+[delta]
+	navigate = true
+[merge]
+	conflictStyle = zdiff3
