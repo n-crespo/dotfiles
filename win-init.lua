@@ -1,34 +1,3 @@
-vim.g.neovide_scale_factor = 0.8
-local change_scale_factor = function(delta)
-	vim.g.neovide_scale_factor = vim.g.neovide_scale_factor * delta
-end
-vim.keymap.set("n", "<C-=>", function()
-	change_scale_factor(1.25)
-end)
-vim.keymap.set("n", "<C-->", function()
-	change_scale_factor(1 / 1.25)
-end)
-
--- Helper function for transparency formatting
-local alpha = function()
-	return string.format("%x", math.floor(255 * vim.g.neovide_transparency_point or 0.8))
-end
--- Set transparency and background color (title bar color)
-vim.g.neovide_transparency = 1
-vim.g.neovide_transparency_point = 0.8
-vim.g.neovide_background_color = "#0f1117" .. alpha()
--- Add keybinds to change transparency
-local change_transparency = function(delta)
-	vim.g.neovide_transparency_point = vim.g.neovide_transparency_point + delta
-	vim.g.neovide_background_color = "#0f1117" .. alpha()
-end
-vim.keymap.set({ "n", "v", "o" }, "<C-]>", function()
-	change_transparency(0.01)
-end)
-vim.keymap.set({ "n", "v", "o" }, "<C-[>", function()
-	change_transparency(-0.01)
-end)
-
 vim.keymap.set("n", "<C-s>", "<cmd>w<cr>", { desc = "Save File", noremap = true, silent = true })
 
 -- media control buttons (don't send keypresses)
@@ -187,22 +156,6 @@ vim.keymap.set("s", "<BS>", "<C-O>c", { remap = true })
 
 -- --------------------------------- PLUGIN SPECIFIC KEYMAPS ---------------------------------------
 
--- zb but respect scrollEOF plugin
-vim.keymap.set("n", "zb", "zbkj", { silent = true, desc = "Bottom line" })
-
--- git blame
-vim.keymap.set("n", "gb", "<leader>ghb", { remap = true, silent = true, desc = "Blame Line" })
-vim.keymap.set("n", "gp", "<leader>ghp", { remap = true, silent = true, desc = "Blame Line" })
-
--- unholy non-native vim keymap for find in buffer
-vim.keymap.set("n", "<C-f>", function()
-	require("telescope.builtin").current_buffer_fuzzy_find(
-		require("telescope.themes").get_dropdown({ winblend = 0, previewer = false })
-	)
-end, { desc = "find word" })
-
-vim.keymap.set("n", "gp", "<leader>ghp>", { remap = true, desc = "git preview" })
-
 vim.keymap.set(
 	"x",
 	"'",
@@ -330,7 +283,7 @@ vim.keymap.set({ "n", "v" }, "`", function()
 	-- Get the fold level of the current line
 	local foldlevel = vim.fn.foldlevel(line)
 	if foldlevel == 0 then
-		vim.notify("No fold found", vim.log.levels.INFO)
+		vim.notify("No fold found", vim.log.levels.WARN, { title = "Fold" })
 	else
 		vim.cmd("normal! za")
 	end
@@ -343,22 +296,12 @@ vim.keymap.set("v", "<C-/>", "<cmd>normal gcc<CR>gv", { desc = "[/] Toggle comme
 vim.keymap.set({ "n", "i" }, "<C-_>", "<cmd>normal gcc<CR>", { desc = "[/] Toggle comment line", silent = true })
 vim.keymap.set("v", "<C-_>", "<cmd>normal gcc<CR>gv", { desc = "[/] Toggle comment line", silent = true })
 
--- clean ^Ms (windows newlines)
-vim.keymap.set("n", "<C-S-S>", function()
-	vim.cmd([[silent! %s/\r//g]])
-	vim.cmd([[w]])
-	vim.notify("Cleaned all newline characters!", vim.log.levels.INFO, { title = "File Saved" })
-end, { remap = false, desc = "Clean ^M", silent = true })
-
 -- get word count of current file
 vim.keymap.set("n", "<C-S-C>", function()
 	vim.notify("" .. vim.fn.wordcount().words, vim.log.levels.INFO, {
 		title = "Word Count",
 	})
 end)
-
-vim.keymap.set("n", "<leader>a", "<cmd>=require('neocodeium').visible()<cr>", { silent = false, desc = "AI Active" })
-vim.keymap.set("i", "<C-S-A>", "<cmd>=require('neocodeium').visible()<cr>", { silent = false, desc = "AI Active" })
 
 -- z=
 local spell_on_choice = vim.schedule_wrap(function(_, idx)
@@ -376,13 +319,22 @@ local spell_select = function()
 end
 vim.keymap.set("n", "z=", spell_select, { desc = "Show spelling suggestions" })
 
+vim.keymap.set("n", "<C-h>", "<C-w><C-h>", { silent = true })
+vim.keymap.set("n", "<C-l>", "<C-w><C-l>", { silent = true })
+vim.keymap.set("n", "<C-j>", "<C-w><C-j>", { silent = true })
+vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { silent = true })
+
 -- Map Escape in all visual modes to return to normal mode
 vim.api.nvim_set_keymap("x", "<Esc>", "<Esc>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("v", "<Esc>", "<Esc>", { noremap = true, silent = true })
 
+-- noh
+vim.keymap.set("n", "<Esc>", "<esc><cmd>noh<cr>", { silent = true })
+
 local opt = vim.opt
 opt.clipboard = "unnamedplus" -- sync with system clipboard
 opt.mouse = "a" -- disable mouse
+opt.wrap = false
 opt.conceallevel = 2 -- Hide * markup for bold and italics
 opt.autowrite = true -- Enable auto writes
 opt.cursorline = true -- don't highlight current line (transparent background)
@@ -414,7 +366,7 @@ vim.g.loaded_perl_provider = 0 -- never use these
 vim.g.loaded_python3_provider = 0
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-vim.g.lazyvim_python_lsp = "pyright"
+opt.foldmethod = "expr"
 
 vim.cmd([[
 set complete=
@@ -430,14 +382,6 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
 			vim.cmd([[%s/\s\+$//e]])
 		end)
 		vim.fn.setpos(".", save_cursor)
-	end,
-})
-
--- always enter normal mode when leaving telescope prompt
-vim.api.nvim_create_autocmd({ "BufLeave", "BufWinLeave" }, {
-	pattern = { "TelescopePrompt" },
-	callback = function()
-		vim.api.nvim_exec2("silent! stopinsert!", {})
 	end,
 })
 
@@ -463,29 +407,6 @@ vim.api.nvim_create_autocmd({ "InsertEnter", "WinLeave" }, {
 vim.api.nvim_create_autocmd({ "BufRead", "FileType" }, {
 	pattern = "Mentorship-Hour-Log.md",
 	command = "setlocal conceallevel=0 textwidth=0",
-})
-
--- don't use lsp on pvs files
-vim.api.nvim_create_autocmd({ "LspAttach" }, {
-	callback = function(opt)
-		if vim.fn.expand("%:e") == "pvs" then
-			vim.schedule(function()
-				vim.lsp.buf_detach_client(opt.buf, opt.data.client_id)
-			end)
-		end
-	end,
-})
-
--- hacky way to get colored pvs
-vim.api.nvim_create_autocmd({ "FileType", "BufRead" }, {
-	pattern = { "*.pvs" },
-	command = "set ft=c",
-})
-
--- for coldfusion syntax highlighting
-vim.api.nvim_create_autocmd({ "FileType", "BufRead" }, {
-	pattern = { "*.cf", "*.cfm" },
-	command = "set syntax=cf filetype=cf",
 })
 
 vim.api.nvim_create_autocmd("OptionSet", {
@@ -552,3 +473,34 @@ vim.api.nvim_create_autocmd("ModeChanged", {
 		end
 	end,
 })
+
+vim.g.neovide_scale_factor = 0.8
+local change_scale_factor = function(delta)
+	vim.g.neovide_scale_factor = vim.g.neovide_scale_factor * delta
+end
+vim.keymap.set("n", "<C-=>", function()
+	change_scale_factor(1.25)
+end)
+vim.keymap.set("n", "<C-->", function()
+	change_scale_factor(1 / 1.25)
+end)
+
+-- Helper function for transparency formatting
+local alpha = function()
+	return string.format("%x", math.floor(255 * vim.g.neovide_transparency_point or 0.8))
+end
+-- Set transparency and background color (title bar color)
+vim.g.neovide_transparency = 1
+vim.g.neovide_transparency_point = 0.8
+vim.g.neovide_background_color = "#0f1117" .. alpha()
+-- Add keybinds to change transparency
+local change_transparency = function(delta)
+	vim.g.neovide_transparency_point = vim.g.neovide_transparency_point + delta
+	vim.g.neovide_background_color = "#0f1117" .. alpha()
+end
+vim.keymap.set({ "n", "v", "o" }, "<C-]>", function()
+	change_transparency(0.01)
+end)
+vim.keymap.set({ "n", "v", "o" }, "<C-[>", function()
+	change_transparency(-0.01)
+end)
