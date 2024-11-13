@@ -376,6 +376,10 @@ local spell_select = function()
 end
 vim.keymap.set("n", "z=", spell_select, { desc = "Show spelling suggestions" })
 
+-- Map Escape in all visual modes to return to normal mode
+vim.api.nvim_set_keymap("x", "<Esc>", "<Esc>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "<Esc>", "<Esc>", { noremap = true, silent = true })
+
 local opt = vim.opt
 opt.clipboard = "unnamedplus" -- sync with system clipboard
 opt.mouse = "a" -- disable mouse
