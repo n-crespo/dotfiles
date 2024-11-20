@@ -8,10 +8,12 @@
 	directory = /mnt/c/Users/nicol/AppData/Roaming/alacritty
 	directory = /root/.config/kitty
 [core]
-	editor = /usr/bin/nvim
+	editor = /home/linuxbrew/.linuxbrew/bin/nvim
   pager = delta
+
 [interactive]
-  diffFilter = delta --color-only --syntax-theme=gruvbox-dark
+diffFilter = delta --color-only
+
 [init]
 	defaultBranch = main
 [alias]
@@ -23,5 +25,3 @@
   br = branch
 [delta]
 	navigate = true
-[merge]
-	conflictStyle = zdiff3

@@ -76,7 +76,6 @@ Shortcuts [
 		Cmd = CmdGoToPrevPage
 		Key = [
 	]
-
 	[
 		Cmd = CmdGoToPrevPage
 		Key = a
@@ -101,6 +100,14 @@ Shortcuts [
 		Cmd = CmdScrollUp n:40
 		Key = k
 	]
+	[
+		Cmd = CmdNextTab
+		Key = L
+	]
+	[
+		Cmd = CmdPrevTab
+		Key = H
+	]
 ]
 EscToExit = false
 ReuseInstance = false
@@ -124,12 +131,12 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = true
 WindowState = 1
-WindowPos = -11 51 2902 1760
+WindowPos = 1909 50 979 1759
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 723
+OpenCountWeek = 724
 
 # Settings below are not recognized by the current version
