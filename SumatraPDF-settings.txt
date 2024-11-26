@@ -108,6 +108,10 @@ Shortcuts [
 		Cmd = CmdPrevTab
 		Key = H
 	]
+	[
+		Cmd = CmdToggleTableOfContents
+		Key = Ctrl + b
+	]
 ]
 EscToExit = false
 ReuseInstance = false
